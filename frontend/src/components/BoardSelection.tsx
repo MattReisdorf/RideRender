@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
 import { Button, Drawer } from 'antd';
-import { LeftOutlined, RightOutlined, DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons';
+import { DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons';
 
-// import { ImageDisplay } from './ImageDisplay';
+import { ImageDisplay } from './ImageDisplay';
 // import { ModelRender } from './ModelRender';
 
 import '../styles/BoardSelection.css';
@@ -17,7 +17,7 @@ interface BoardsJSON {
 
 export default function BoardSelection() {
     const [boards, setBoards] = useState<BoardsJSON>({});
-    const [loading, setLoading] = useState<boolean>(true);
+    const [errorThrown, setErrorThrown] = useState<boolean>(false);
 
     useEffect(() => {
         const getBoards = async() => {
@@ -26,13 +26,18 @@ export default function BoardSelection() {
                 const boards: BoardsJSON = response.data.boards;
                 setBoards(boards)
             }
-            catch (error) {
-                console.error(error)
+            catch (error: unknown) {
+                if (axios.isAxiosError(error)) {
+                    const requestError = error as AxiosError;
+                    if (requestError.response?.status !== 200) {
+                        console.warn = () => {};
+                        setErrorThrown(true);
+                    }
+                }
             }
         }
         getBoards();
         setTimeout(() => {
-            setLoading(false)
         }, 1000);
     }, []);
 
@@ -68,6 +73,15 @@ export default function BoardSelection() {
     const handleCloseBoardDrawer = () => {
         setBoardDrawerOpen(false);
     };
+
+
+    if (errorThrown) {
+        return (
+            <div>
+                <span>Error Thrown</span>
+            </div>
+        )
+    }
 
     return (
         <>
@@ -150,7 +164,7 @@ export default function BoardSelection() {
             </Drawer>
 
             <div>
-                {/* <ImageDisplay brand = {selectedBrand} board = {selectedBoard} /> */}
+                <ImageDisplay brand = {selectedBrand} board = {selectedBoard} />
                 {/* <ModelRender /> */}
             </div>
 
