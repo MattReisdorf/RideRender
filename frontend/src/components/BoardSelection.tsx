@@ -106,14 +106,14 @@ export default function BoardSelection() {
                 className = 'brandDrawer'
                 width = {348}
             >
-                {Object.keys(boards).map((key) => (
+                {Object.keys(boards).map((brand: string, index: number) => (
                     <Button
                         className = 'brandDrawerButton'
-                        key = {key}
+                        key = {index}
                         type = 'link'
-                        onClick = {() => handleBrandSelect(key)}
+                        onClick = {() => handleBrandSelect(brand)}
                     >
-                        <img className = 'logoButton' src = {`/images/logos/${key}.jpg`} alt = {key} />
+                        <img className = 'logoButton' src = {`/images/logos/${brand}.jpg`} alt = {brand} />
                     </Button>
                 ))}
             </Drawer>
@@ -136,18 +136,17 @@ export default function BoardSelection() {
                 {
                     selectedBrand
                     ?
-                    boards[selectedBrand].map((board: string, index: number) => (
-                        <div className = 'boardImageContainer'>
+                    boards[selectedBrand].map((board: string) => (
+                        <div className = 'boardImageContainer' key = {board}>
                             <Button
                                 className = 'boardDrawerButton'
-                                key = {index}
                                 type = 'link'
                                 onClick = {() => handleBoardSelect(board)}
                             >
                                 <img
                                     className = 'boardButton'
                                     src = {
-                                        selectedBrand == 'Yes'
+                                        selectedBrand === 'Yes'
                                         ?
                                         `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}.-${board.replace(/ /g, '-')}.jpg`
                                         :
