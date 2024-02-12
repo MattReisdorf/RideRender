@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios, { AxiosError } from 'axios';
 
+import '../styles/ImageDisplay.css';
+
 interface ImageDisplayProps {
     brand: string | null,
     board: string | null
@@ -54,7 +56,7 @@ export const ImageDisplay: React.FC<ImageDisplayProps> = ({brand, board}) => {
     }
     else if (manufacturer && model) {
         return (
-            <div>
+            <div className = 'imageDisplay'>
                 <img src = {boardPath} />
             </div>
         );

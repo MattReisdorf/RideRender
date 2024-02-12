@@ -162,7 +162,7 @@ export default function BoardSelection() {
                 }
             </Drawer>
 
-            <div>
+            <div className = 'imageContainer'>
                 <ImageDisplay brand = {selectedBrand} board = {selectedBoard} />
                 {/* <ModelRender /> */}
             </div>
