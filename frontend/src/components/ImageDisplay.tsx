@@ -10,7 +10,6 @@ export const ImageDisplay: React.FC<ImageDisplayProps> = ({brand, board}) => {
 
     const [manufacturer, setManufacturer] = useState<string | null>(null);
     const [model, setModel] = useState<string | null>(null);
-    const [imageExists, setImageExists] = useState<boolean>(false);
     const [errorThrown, setErrorThrown] = useState<boolean>(false);
 
     useEffect(() => {
@@ -24,10 +23,6 @@ export const ImageDisplay: React.FC<ImageDisplayProps> = ({brand, board}) => {
                 if (response.data.imageExists) {
                     setManufacturer(brand);
                     setModel(board);
-                    setImageExists(true);
-                }
-                else {
-                    setImageExists(false);
                 }
             }
             catch (error: unknown) {
@@ -40,7 +35,7 @@ export const ImageDisplay: React.FC<ImageDisplayProps> = ({brand, board}) => {
             }
         };
         checkFileExists();
-    }, [brand, model]);
+    }, [brand, board]);
 
     const boardPath = (
         manufacturer === 'Yes'
