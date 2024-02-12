@@ -20,7 +20,7 @@ export const ImageDisplay: React.FC<ImageDisplayProps> = ({brand, board}) => {
                     brand: brand,
                     board: board
                 };
-                const response = await axios.post('http://127.0.0.1:8000/existence', makeModel)
+                const response = await axios.post('http://127.0.0.1:8000/existence/', makeModel)
                 if (response.data.imageExists) {
                     setManufacturer(brand);
                     setModel(board);
