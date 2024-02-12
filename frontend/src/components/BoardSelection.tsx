@@ -53,7 +53,7 @@ export default function BoardSelection() {
 
     const openBoardDrawer = () => {
         setBoardDrawerOpen(!boardDrawerOpen);
-        // setBrandDrawerOpen(!brandDrawerOpen);
+        setBrandDrawerOpen(!brandDrawerOpen);
     };
 
     const handleBoardSelect = (board: string) => {
