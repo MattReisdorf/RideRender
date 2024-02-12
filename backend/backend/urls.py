@@ -16,7 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from RideRenderBackend import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+
+    path('boards-json/', views.get_boards_json, name = 'get_boards_json')
 ]
