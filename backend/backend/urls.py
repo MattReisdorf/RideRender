@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
 
-    path('boards-json/', views.get_boards_json, name = 'get_boards_json')
+    path('boards-json/', views.get_boards_json, name = 'get_boards_json'),
+    path('existence/', views.check_board_existence, name = 'check_board_existence')
 ]
