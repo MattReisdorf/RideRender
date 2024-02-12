@@ -1,0 +1,115 @@
+/* START UNIVSERAL STYLES */
+/* .titlePlacement {
+    display: grid;
+    justify-content: center;
+} */
+/* END UNIVERSAL STYLES */
+
+
+/* START BRAND DRAWER SPECIFIC STYLES */
+.closedBrandDrawerButton {
+    position: fixed;
+    right: 0;
+    top: 5%;
+    transform: translateY(-5%);
+    z-index: 1001;
+    visibility: visible;
+    transition: right 0.3s ease, visibility 0s 0.29s;
+    
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.openedBrandDrawerButton {
+    right: 348px;
+}
+
+.brandDrawer {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 4px;
+    grid-auto-flow: column;
+}
+
+
+.brandDrawerButton {
+    padding-left: 50px;
+}
+
+
+.logoButton {
+    width: 200px;
+    height: 130px;
+}
+/* END BRAND DRAWER SPECIFIC STYLES */
+
+/* START BOARD DRAWER SPECIFIC STYLES */
+.selectedBrandLogo {
+    display: table;
+    margin: 0 auto;
+    width: 100px;
+    height: 65px;
+}
+
+.boardImageContainer {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    /* gap: 25px; */
+}
+
+/* .boardDrawerButton {
+    width: 200px;
+    height: 300px;
+} */
+
+.boardDrawerButton {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+    padding-top: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.boardButton {
+    width: 200px;
+    height: 200px;
+}
+
+.boardButtonName {
+    padding-top: 15px;
+}
+
+
+.boardButtonTest {
+    position: fixed;
+    right: 0;
+    top: 5%;
+    opacity: 0;
+    transform: translateY(-5%);
+    z-index: 500;
+    transition: opacity 0.4s ease, right 0.3s ease;
+    /* color: red; */
+}
+
+
+
+.boardButtonFinal {
+    right: 348px;
+    z-index: 1001;
+    /* color: red; */
+    opacity: 1;
+}
+
+
+
+
+
+
+
