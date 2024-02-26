@@ -79,8 +79,30 @@ def check_board_existence(request):
         }
     )
 
+@csrf_exempt
+@require_http_methods(["POST"])
+def check_model_existence(request):
+    model_exists = False
+    data = json.loads(request.body)
+    brand = data["brand"]
+    board = data["board"]
 
+    front_end_base_dir = os.path.join(settings.BASE_DIR.parent, 'frontend/public/images/mens')
 
+    if brand == "Yes":
+        full_model_path = os.path.join(front_end_base_dir, f"{brand}/models/{brand.replace(' ', '-') + '.' if data['brand'] else ''}-{board.replace(' ', '-') if data['board'] else ''}/{brand.replace(' ', '-') + '.' if data['brand'] else ''}-{board.replace(' ', '-') if data['board'] else ''}.obj")
+    else:
+        full_model_path = os.path.join(front_end_base_dir, f"{brand}/models/{brand.replace(' ', '-') if data['brand'] else ''}-{board.replace(' ', '-') if data['board'] else ''}/{brand.replace(' ', '-') if data['brand'] else ''}-{board.replace(' ', '-') if data['board'] else ''}.obj")
+
+    if os.path.exists(full_model_path):
+        model_exists = True
+
+    return JsonResponse (
+        {
+            "modelExists": model_exists,
+            "path": full_model_path
+        }
+    )
 # THIS WILL NOT BE A VIEW/URL LATER -> PLAN TO CONVERT TO DJANGOQ FUNCTION
 @csrf_exempt
 @require_http_methods(["GET"])
@@ -173,24 +195,103 @@ def generate_board_model(brand, board):
     # top_contour = load_masks_and_find_contours(f"./mens/{brand}/masks/{board.replace('.jpg', '')}/{board.replace('.jpg', '_0.jpg')}")
     top_contour = load_masks_and_find_contours(os.path.join(front_end_base_dir, brand, 'masks', board.replace('.jpg', ''), board.replace('.jpg', '_0.jpg')))
 
-    top_contour = np.squeeze(top_contour)
+    area = cv2.contourArea(top_contour, oriented = True)
+    if area < 0:
+        print("contours are clockwise, reversing...")
+        top_contour = np.flipud(top_contour)
+        top_contour.reshape((-1, 1, 2))
 
-    flat_vertices = []
-    for point in top_contour:
-        flat_vertices.append([point[0], point[1], 0])
 
-    flat_vertices = np.array(flat_vertices).astype(np.float64)
 
-    max_y_mesh = np.max(flat_vertices[:, 1])
-    flat_vertices[:, 0] /= max_y_mesh
-    flat_vertices[:, 1] /= max_y_mesh
 
-    flat_faces = []
-    for i in range(1, len(flat_vertices) - 1):
-        flat_faces.append([0, i, i + 1])
+    vertices_2d = top_contour.reshape(-1, 2).astype(np.float64)
+    max_y = np.amax(vertices_2d[:, 1])
+    vertices_2d[:, 0] /= max_y
+    vertices_2d[:, 1] /= max_y
+    vertices_bottom = np.hstack((vertices_2d, np.zeros((vertices_2d.shape[0], 1))))
 
-    mesh = trimesh.Trimesh(vertices = flat_vertices, faces = flat_faces)
+    # print(vertices_bottom[:3])
+
+    vertices_top = vertices_bottom.copy()
+    vertices_top[:, 2] += .005 # extrusion height
+
+    # print(vertices_top[:3])
+
+    side_faces = []
+    for i in range(len(vertices_bottom)):
+        next_i = (i + 1) % len(vertices_bottom)
+        side_faces.extend([
+            [i, next_i, next_i + len(vertices_bottom)],
+            [i, next_i + len(vertices_bottom), i + len(vertices_bottom)]
+        ])
+
+    vertices = np.vstack([vertices_bottom, vertices_top])
+
+    # print(vertices[:3])
+
+    top_faces = [[len(vertices_bottom), i + len(vertices_bottom), (i + 1) % len(vertices_bottom) + len(vertices_bottom)] for i in range(len(vertices_bottom))]
+    bottom_faces = [[0, (i + 1) % len(vertices_bottom), i] for i in range(len(vertices_bottom))]
+
+    faces = np.vstack([bottom_faces, top_faces, side_faces])
+
+    mesh = trimesh.Trimesh(vertices = vertices, faces = faces)
+    if not mesh.is_volume:
+        mesh.fill_holes()
+
+    # mesh.fix_normals()
+
+    mesh.apply_scale(.1)
+
+
+
     mesh.export(os.path.join(front_end_base_dir, brand, 'models', board.replace('.jpg', ''), board.replace('.jpg', '.obj')))
+
+
+
+
+
+
+    # top_contour = np.squeeze(top_contour)
+
+    # flat_vertices = []
+    # for point in top_contour:
+    #     flat_vertices.append([point[0], point[1], 0])
+
+    # flat_vertices = np.array(flat_vertices).astype(np.float64)
+
+    # max_y_mesh = np.max(flat_vertices[:, 1])
+    # flat_vertices[:, 0] /= max_y_mesh
+    # flat_vertices[:, 1] /= max_y_mesh
+
+    # flat_faces = []
+    # for i in range(1, len(flat_vertices) - 1):
+    #     flat_faces.append([0, i, i + 1])
+
+    # mesh = trimesh.Trimesh(vertices = flat_vertices, faces = flat_faces)
+
+    #     # Duplicate and translate the vertices to create the top surface
+    # top_vertices = flat_vertices.copy()
+    # top_vertices[:, 2] += .0050  # Adjust the 10 to change the thickness
+
+    # # Combine the vertices and faces for the top and bottom surfaces
+    # all_vertices = np.vstack((flat_vertices, top_vertices))
+    # top_faces = [[vertex_index + len(flat_vertices) for vertex_index in face] for face in flat_faces]
+    # # top_faces = flat_faces.copy() + len(flat_vertices)
+    # all_faces = np.vstack((flat_faces, top_faces))
+
+    # # Create the side faces
+    # for i in range(len(flat_faces)):
+    #     face = flat_faces[i]
+    #     all_faces = np.vstack((all_faces, [face[0], face[1], face[1] + len(flat_vertices)]))
+    #     all_faces = np.vstack((all_faces, [face[0], face[1] + len(flat_vertices), face[0] + len(flat_vertices)]))
+    #     all_faces = np.vstack((all_faces, [face[1], face[2], face[2] + len(flat_vertices)]))
+    #     all_faces = np.vstack((all_faces, [face[1], face[2] + len(flat_vertices), face[1] + len(flat_vertices)]))
+    #     all_faces = np.vstack((all_faces, [face[2], face[0], face[0] + len(flat_vertices)]))
+    #     all_faces = np.vstack((all_faces, [face[2], face[0] + len(flat_vertices), face[2] + len(flat_vertices)]))
+
+    # # Create the extruded mesh
+    # extruded_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)
+    # extruded_mesh.export(os.path.join(front_end_base_dir, brand, 'models', board.replace('.jpg', ''), board.replace('.jpg', '.obj')))
 
 def load_masks_and_find_contours(path):
     image = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
