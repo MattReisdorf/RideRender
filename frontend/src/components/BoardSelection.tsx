@@ -4,8 +4,7 @@ import { Button, Drawer } from 'antd';
 import { DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons';
 
 import { ImageDisplay } from './ImageDisplay';
-// import { ModelRender } from './ModelRender';
-
+import { ModelRender } from './ModelRender';
 import '../styles/BoardSelection.css';
 
 
@@ -163,8 +162,8 @@ export default function BoardSelection() {
             </Drawer>
 
             <div className = 'imageContainer'>
-                <ImageDisplay brand = {selectedBrand} board = {selectedBoard} />
-                {/* <ModelRender /> */}
+                {/* <ImageDisplay brand = {selectedBrand} board = {selectedBoard} /> */}
+                <ModelRender brand = {selectedBrand} board = {selectedBoard}/>
             </div>
 
         </>

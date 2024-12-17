@@ -24,6 +24,7 @@ urlpatterns = [
 
     path('boards-json/', views.get_boards_json, name = 'get_boards_json'),
     path('existence/', views.check_board_existence, name = 'check_board_existence'),
+    path('model-existence/', views.check_model_existence, name = 'check_model_existence'),
 
     # THIS WILL NOT BE A VIEW/URL LATER -> PLAN TO CONVERT TO DJANGOQ FUNCTION
     path('models/', views.generate_board_models, name = 'generate_board_models')
