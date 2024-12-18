@@ -3,7 +3,7 @@
 
 Currently a Work in Progress
 
-Ultimately, this is a site for viewing 3D models of snowboards purchasable from a large retailer (evo.com). 
+Ultimately, this is a site for viewing 3D models of snowboards purchasable from a large retailer. 
 
 Frontend is mostly complete, a couple things probably still need tweeking. 
 
