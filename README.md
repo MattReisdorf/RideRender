@@ -7,7 +7,7 @@ Ultimately, this is a site for viewing 3D models of snowboards purchasable from 
 
 Frontend is mostly complete, a couple things probably still need tweeking. 
 
-Model generation is done on the backend. Logic there is still the main blocker. Currently the models are only generated as single flat meshes, that I'm then doubling and applying some thickness to. 
+Model generation is handled on the backend with python. Logic there is still the main blocker. Currently the models are only generated as single flat meshes, that I'm then doubling and applying some thickness to. 
 
 *Issues as of 12/17/24*
 * Model: Flat meshes make flat models. Still need to fix the tip and tail curvature for all generated models.
