@@ -47,3 +47,5 @@ with open('board-links.json') as json_file:
 
         with open(os.path.join(base_path, 'boards', brand, folder_name, file_name), 'wb') as f:
           f.write(response.content)
+
+driver.quit()
