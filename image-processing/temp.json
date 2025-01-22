@@ -1,0 +1,26 @@
+{
+  "arbor": [
+    {
+      "arbor-a-frame": {
+        "link": "https://evo.com/snowboards/arbor-a-frame-snowboard"
+      }
+    },
+    {
+      "arbor-bryan-iguchi-pro": {
+        "link": "https://evo.com/snowboards/arbor-bryan-iguchi-pro-snowboard"
+      }
+    }
+  ],
+  "burton": [
+    {
+      "burton-blossom": {
+        "link": "https://evo.com/snowboards/burton-blossom-snowboard"
+      }
+    },
+    {
+      "burton-cartographer": {
+        "link": "https://evo.com/snowboards/burton-cartographer-snowboard"
+      }
+    }
+  ]
+}
