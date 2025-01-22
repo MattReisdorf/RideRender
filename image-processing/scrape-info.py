@@ -63,7 +63,6 @@ def get_brand_names(url: str):
 # Get All Boards From Each Brand and the Page URLs
 def get_board_links(brand_links: dict):
   # Initialize Empty Dict for Boards
-  board_links = {}
 
   # Iterate through Brand: URL Dict -> Add Child Dicts with Board Names and Product URLs
   for key, value in brand_links.items():
@@ -95,20 +94,15 @@ def get_board_links(brand_links: dict):
     # Add SubDicts to Main Dict
     board_links[key] = link_array
 
-
-
-  # Writes out Final as JSON
-  with open('board-links.json', 'w') as f:
-    json.dump(board_links, f, indent = 1)
+  
 
 # Scrape Step 3:
-# Get Info On Each Board: Sizes, Camber/Rocker/?, Flex, Binding Compat, Price
+# Get Info On Each Board: X Sizes, Camber/Rocker/?, Flex, Binding Compat, X Price
 def get_board_info(board_links: dict):
   for brand, boards in board_links.items():
     for board_dict in boards:
-      # print(board_dict)
+      print(board_dict)
       for board_name, board_info in board_dict.items():
-        print(board_info["link"])
         driver.get(board_info["link"])
 
         soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -122,17 +116,34 @@ def get_board_info(board_links: dict):
           aaa = lengthChild.get('value')
           board_lengths.append(aaa)
         board_info['sizes'] = board_lengths
+
+        price = soup.find('span', class_ = 'pdp-price-regular') or soup.find('span', class_ = 'pdp-price-discount')
+        board_info['price'] = price.getText()
+
+
+        specs_parent = soup.find('section', class_ = 'pdp-specs')
+        specs = specs_parent.find('ul', class_ = 'pdp-spec-list')
+        specs_list = specs.findChildren('li', class_ = 'pdp-spec-list-item')
+        wanted_specs = ["Terrain:", "Ability Level:", "Rocker Type:", "Shape:", "Flex Rating:", "Binding Mount Pattern:"]
+        for spec in specs_list:
+          key = spec.find('span', class_ = 'pdp-spec-list-title')
+          value = spec.find('span', class_ = 'pdp-spec-list-description')
+
+          if key.getText() not in wanted_specs:
+            continue
+
+          board_info[key.getText()] = value.getText()
       
-  print(board_links)
-
-# Temporary Comment Out
-# Opening existing JSON as dict for testing
-# get_brand_names("https://www.evo.com/shop/snowboard/snowboards/mens/condition_new/s_name/rpp_400")
+  # Writes out Final as JSON
+  with open('board-links.json', 'w') as f:
+    json.dump(board_links, f, indent = 2)
 
 
-with open('temp.json') as json_file:
-  data = json.load(json_file)
-  get_board_info(data)
+board_links = {}
+
+get_brand_names("https://www.evo.com/shop/snowboard/snowboards/mens/condition_new/s_name/rpp_400")
+get_board_info(board_links)
+
 
 
 driver.quit()
