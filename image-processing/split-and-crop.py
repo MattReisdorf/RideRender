@@ -33,7 +33,9 @@ for brand in os.listdir(all_brands_path):
     board_path = os.path.join(brand_path, board)
 
     for image in os.listdir(board_path):
-      board_image_path = os.path.join(board_path)
+      split_images(board_path, board, image)
+
+    for image in os.listdir(board_path):
       if 'top' in image:
         crop_image(board_path, image)
       elif 'bottom' in image:
