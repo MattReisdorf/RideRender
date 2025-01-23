@@ -6,8 +6,8 @@ import cv2
 def split_images(board_image_path: str, board: str, image: str):
   img = Image.open(os.path.join(board_image_path, image))
   width, height = img.size
-  top_graphic = img.crop((width // 2, 0, width, height))
-  bottom_graphic = img.crop((0, 0, width // 2, height))
+  bottom_graphic = img.crop((width // 2, 0, width, height))
+  top_graphic = img.crop((0, 0, width // 2, height))
   top_graphic.save(os.path.join(board_image_path, f"{board}-top.png"))
   bottom_graphic.save(os.path.join(board_image_path, f"{board}-bottom.png"))
 
