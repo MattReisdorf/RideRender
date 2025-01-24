@@ -134,7 +134,7 @@ def get_board_info(board_links: dict):
           board_info[key.getText()] = value.getText()
       
   # Writes out Final as JSON
-  with open('board-links.json', 'w') as f:
+  with open('board-info.json', 'w') as f:
     json.dump(board_links, f, indent = 2)
 
 
