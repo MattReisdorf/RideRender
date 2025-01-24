@@ -31,6 +31,7 @@ def smooth_and_extrude(model_path: str, board_path: str, board: str):
       bpy.ops.mesh.vertices_smooth(repeat = 10, factor = 0.5)
       bpy.ops.mesh.extrude_region_shrink_fatten(TRANSFORM_OT_shrink_fatten={"value": 0.04})
       bpy.ops.object.mode_set(mode = "OBJECT")
+      bpy.ops.object.origin_set(type = "GEOMETRY_ORIGIN", center = "MEDIAN")
       print(f"smoothing applied to {obj.name}")
 
   export_path = os.path.join(board_path, f"{board}.obj")
