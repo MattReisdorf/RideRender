@@ -7,6 +7,10 @@ import { ImageDisplay } from './ImageDisplay';
 import { ModelRender } from './ModelRender';
 import '../styles/BoardSelection.css';
 
+// import boardData from '../../public/board-info.json';
+
+// console.log(boardData)
+
 
 
 
@@ -14,15 +18,32 @@ interface BoardsJSON {
     [key: string]: string[]
 };
 
+interface BoardModel {
+  name: string,
+  link: string,
+  sizes: string[],
+  price: string;
+  [key: string]: string | string[]
+}
+
+interface BrandBoards {
+  [modelName: string]: BoardModel;
+}
+
+interface BoardsData {
+  [brand: string]: BrandBoards[]
+}
 export default function BoardSelection() {
-    const [boards, setBoards] = useState<BoardsJSON>({});
+    const [boards, setBoards] = useState<BoardsData>({});
     const [errorThrown, setErrorThrown] = useState<boolean>(false);
 
     useEffect(() => {
         const getBoards = async() => {
             try {
-                const response = await axios.get('http://127.0.0.1:8000/boards-json')
-                const boards: BoardsJSON = response.data.boards;
+                // const response = await axios.get('http://127.0.0.1:8000/boards-json')
+                const response = await axios.get('/board-info.json')
+                // console.log(response);
+                const boards = response.data;
                 setBoards(boards)
             }
             catch (error: unknown) {
@@ -39,6 +60,10 @@ export default function BoardSelection() {
         setTimeout(() => {
         }, 1000);
     }, []);
+
+    // console.log(boards);
+
+    
 
     const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
     const [selectedBoard, setSelectedBoard] = useState<string | null>(null);
@@ -81,6 +106,17 @@ export default function BoardSelection() {
             </div>
         )
     }
+
+    // console.log(selectedBrand, selectedBoard);
+
+    // if(selectedBrand) {
+    //   boards[selectedBrand].map((board: BrandBoards) => {
+    //     const boardNames = Object.keys(board);
+    //     const boardName = boardNames[0];
+    //     const boardDetails = board[boardName];
+    //     console.log(boardDetails.name)
+    //   })
+    // }
 
     return (
         <>
@@ -132,10 +168,10 @@ export default function BoardSelection() {
                 closeIcon = {false}
                 width = {348}
             >
-                {
+                {/* {
                     selectedBrand
                     ?
-                    boards[selectedBrand].map((board: string) => (
+                    boards[selectedBrand].map((board: BrandBoards) => (
                         <div className = 'boardImageContainer' key = {board}>
                             <Button
                                 className = 'boardDrawerButton'
@@ -158,12 +194,45 @@ export default function BoardSelection() {
                     ))
                     :
                     null
-                }
+                } */}
+                {
+                selectedBrand
+                  ? boards[selectedBrand].map((modelObject: BrandBoards) => {
+                      // Extract the model name (e.g., "arbor-a-frame")
+                      const modelName = Object.keys(modelObject)[0];
+                      
+                      // Access the BoardModel using the model name
+                      const boardData = modelObject[modelName];
+                      
+                      return (
+                        <div className='boardImageContainer' key={boardData.name}>
+                          <Button
+                            className='boardDrawerButton'
+                            type='link'
+                            onClick={() => handleBoardSelect(boardData.name)} // Pass the board name or adjust as needed
+                          >
+                            <img
+                              className='boardButton'
+                              src={
+                                selectedBrand === 'Yes'
+                                  ? `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}.-${boardData.name.replace(/ /g, '-')}.png`
+                                  // : `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}-${boardData.name.replace(/ /g, '-')}.png`
+                                  : `/images/mens/${selectedBrand}/${boardData.name}.png`
+                              }
+                              alt={`${selectedBrand} ${boardData.name}`}
+                            />
+                            <span className='boardButtonName'>{boardData.name}</span>
+                          </Button>
+                        </div>
+                      );
+                    })
+                  : null
+              }
             </Drawer>
 
             <div className = 'imageContainer'>
                 {/* <ImageDisplay brand = {selectedBrand} board = {selectedBoard} /> */}
-                <ModelRender brand = {selectedBrand} board = {selectedBoard}/>
+                {/* <ModelRender brand = {selectedBrand} board = {selectedBoard}/> */}
             </div>
 
         </>
