@@ -36,3 +36,7 @@ TODO.md
 
 /image-processing/boards
 /image-processing/__pycache__
+/image-processing/.env
+/image-processing/riderender-34a25-firebase-adminsdk-fbsvc-24f7007f9f.json
+backend/RideRenderBackend/riderender-34a25-firebase-adminsdk-fbsvc-24f7007f9f.json
+backend/RideRenderBackend/.env
