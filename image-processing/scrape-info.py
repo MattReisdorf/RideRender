@@ -85,6 +85,7 @@ def get_board_links(brand_links: dict):
       link_array.append(
         {
           board_name: {
+            "name": board_name,
             "link": full_link
           }
         }
