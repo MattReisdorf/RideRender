@@ -232,7 +232,7 @@ export default function BoardSelection() {
 
             <div className = 'imageContainer'>
                 {/* <ImageDisplay brand = {selectedBrand} board = {selectedBoard} /> */}
-                {/* <ModelRender brand = {selectedBrand} board = {selectedBoard}/> */}
+                <ModelRender brand = {selectedBrand} board = {selectedBoard}/>
             </div>
 
         </>
