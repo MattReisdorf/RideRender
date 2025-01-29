@@ -5,11 +5,9 @@ import { DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons';
 
 import { ImageDisplay } from './ImageDisplay';
 import { ModelRender } from './ModelRender';
+import { BoardInfo } from './BoardInfo';
 import '../styles/BoardSelection.css';
 
-// import boardData from '../../public/board-info.json';
-
-// console.log(boardData)
 
 
 
@@ -61,10 +59,6 @@ export default function BoardSelection() {
         }, 1000);
     }, []);
 
-    // console.log(boards);
-
-    
-
     const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
     const [selectedBoard, setSelectedBoard] = useState<string | null>(null);
     const [brandDrawerOpen, setBrandDrawerOpen] = useState<boolean>(false);
@@ -107,19 +101,9 @@ export default function BoardSelection() {
         )
     }
 
-    // console.log(selectedBrand, selectedBoard);
-
-    // if(selectedBrand) {
-    //   boards[selectedBrand].map((board: BrandBoards) => {
-    //     const boardNames = Object.keys(board);
-    //     const boardName = boardNames[0];
-    //     const boardDetails = board[boardName];
-    //     console.log(boardDetails.name)
-    //   })
-    // }
-
     return (
         <>
+          <BoardInfo board = {selectedBoard} brand = {selectedBrand} boardData = {boards}/>
             <Button 
                 className = {`closedBrandDrawerButton ${brandDrawerOpen ? 'openedBrandDrawerButton' : ''} ${boardDrawerOpen ? 'hidden' : ''}`}
                 type = 'text'
@@ -168,33 +152,6 @@ export default function BoardSelection() {
                 closeIcon = {false}
                 width = {348}
             >
-                {/* {
-                    selectedBrand
-                    ?
-                    boards[selectedBrand].map((board: BrandBoards) => (
-                        <div className = 'boardImageContainer' key = {board}>
-                            <Button
-                                className = 'boardDrawerButton'
-                                type = 'link'
-                                onClick = {() => handleBoardSelect(board)}
-                            >
-                                <img
-                                    className = 'boardButton'
-                                    src = {
-                                        selectedBrand === 'Yes'
-                                        ?
-                                        `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}.-${board.replace(/ /g, '-')}.jpg`
-                                        :
-                                        `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}-${board.replace(/ /g, '-')}.jpg`
-                                    }
-                                    alt = {selectedBrand + " " + board} />
-                                    <span className = 'boardButtonName'>{board}</span>
-                            </Button>
-                        </div>
-                    ))
-                    :
-                    null
-                } */}
                 {
                 selectedBrand
                   ? boards[selectedBrand].map((modelObject: BrandBoards) => {
@@ -231,7 +188,6 @@ export default function BoardSelection() {
             </Drawer>
 
             <div className = 'imageContainer'>
-                {/* <ImageDisplay brand = {selectedBrand} board = {selectedBoard} /> */}
                 <ModelRender brand = {selectedBrand} board = {selectedBoard}/>
             </div>
 
