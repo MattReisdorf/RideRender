@@ -1,6 +1,13 @@
 # Generating Models
 
-- Run the {name} script, this will run all of the scripts to scrape the images and generate .obj models and .mtl texture files
+- ~~Run the {name} script, this will run all of the scripts to scrape the images and generate .obj models and .mtl texture files~~
+- I haven't finished the all-encompassing script yet, run each individual python file in this order
+    - scrape-info.py
+    - scrape-images.py
+    - split-and-crop.py
+    - mask-and-model.py
+    - clean-model.py
+    - texturing.py
 - You'll need Blender to finish creating the .gltf model files with actual textures
     - I'm hoping to update the scripts in the future to handle this, but I want to get the site live sooner rather than later
 - GLTF Steps:
