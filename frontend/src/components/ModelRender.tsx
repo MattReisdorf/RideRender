@@ -69,7 +69,7 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board }) => {
     const gltf = useLoader(GLTFLoader, modelURL);
 
     useThree(({ camera }) => {
-      camera.position.z = 7;
+      camera.position.z = 6;
       camera.lookAt(0, 0, 0)
     })
 
@@ -93,13 +93,23 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board }) => {
   else if (modelURL && <Model modelURL={modelURL} />) {
 
     return (
-      <Canvas>
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[10, 10, 5]} intensity={1} />
-        <directionalLight position={[-10, -10, -5]} intensity={1} />
-        {modelURL && <Model modelURL={modelURL} />}
-        <OrbitControls />
-      </Canvas>
+      <div 
+        style = {{
+          height: 'auto',
+          width: '30vw',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          cursor: 'grab'
+        }}
+      >
+        <Canvas>
+          <ambientLight intensity={2} />
+          <directionalLight position={[10, 10, 5]} intensity={1} />
+          <directionalLight position={[-10, -10, -5]} intensity={1} />
+          {modelURL && <Model modelURL={modelURL} />}
+          <OrbitControls />
+        </Canvas>
+      </div>
     )
   }
 
