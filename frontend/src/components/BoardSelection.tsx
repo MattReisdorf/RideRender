@@ -178,7 +178,7 @@ export default function BoardSelection() {
                               }
                               alt={`${selectedBrand} ${boardData.name}`}
                             />
-                            <span className='boardButtonName'>{boardData.name}</span>
+                            <span className='boardButtonName'>{boardData.name.replace(`${selectedBrand}`, '').replace(/-/g, " ").replace(/\b[a-z]/g, match => match.toUpperCase())}</span>
                           </Button>
                         </div>
                       );
