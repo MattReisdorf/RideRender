@@ -1052,43 +1052,6 @@
       }
     },
     {
-      "burton-family-tree-short-stop-2024": {
-        "name": "burton-family-tree-short-stop-2024",
-        "link": "https://evo.com/snowboards/burton-family-tree-short-stop-snowboard-2024",
-        "sizes": [
-          "150",
-          "156",
-          "162"
-        ],
-        "price": "$469.99 Sale",
-        "Terrain:": "Powder",
-        "Ability Level:": "Advanced-Expert",
-        "Rocker Type:": "Rocker/Flat",
-        "Shape:": "Directional",
-        "Flex Rating:": "Stiff",
-        "Binding Mount Pattern:": "Channel"
-      }
-    },
-    {
-      "burton-family-tree-short-stop": {
-        "name": "burton-family-tree-short-stop",
-        "link": "https://evo.com/snowboards/burton-family-tree-short-stop-snowboard",
-        "sizes": [
-          "142",
-          "150",
-          "156",
-          "162"
-        ],
-        "price": "$819.95",
-        "Terrain:": "Powder",
-        "Ability Level:": "Advanced-Expert",
-        "Rocker Type:": "Rocker/Flat",
-        "Shape:": "Directional",
-        "Flex Rating:": "Stiff",
-        "Binding Mount Pattern:": "Channel"
-      }
-    },
-    {
       "burton-3d-fish": {
         "name": "burton-3d-fish",
         "link": "https://evo.com/snowboards/burton-3d-fish-snowboard",
@@ -1160,24 +1123,6 @@
         "Ability Level:": "Intermediate-Advanced",
         "Rocker Type:": "Camber",
         "Shape:": "Directional Twin",
-        "Flex Rating:": "Soft",
-        "Binding Mount Pattern:": "Channel"
-      }
-    },
-    {
-      "burton-instigator-flat-top": {
-        "name": "burton-instigator-flat-top",
-        "link": "https://evo.com/snowboards/burton-instigator-flat-top-snowboard",
-        "sizes": [
-          "140",
-          "150W",
-          "165W"
-        ],
-        "price": "$439.95",
-        "Terrain:": "All-Mountain",
-        "Ability Level:": "Beginner-Intermediate",
-        "Rocker Type:": "Flat",
-        "Shape:": "Directional",
         "Flex Rating:": "Soft",
         "Binding Mount Pattern:": "Channel"
       }
