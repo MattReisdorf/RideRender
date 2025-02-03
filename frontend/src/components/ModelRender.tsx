@@ -5,20 +5,59 @@ import { Canvas, useLoader, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { Mesh } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { BoardInfo } from './BoardInfo';
+import { Modal } from 'antd';
+
+import { LoadingOutlined } from '@ant-design/icons';
+
 
 interface ModelRenderProps {
   brand: string | null,
-  board: string | null
+  board: string | null,
+  boardData: BoardsData
 }
 
-export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board }) => {
+interface BoardsJSON {
+  [key: string]: string[]
+};
+
+interface BoardModel {
+  name: string,
+  link: string,
+  sizes: string[],
+  price: string;
+  [key: string]: string | string[]
+}
+
+interface BrandBoards {
+  [modelName: string]: BoardModel;
+}
+
+interface BoardsData {
+  [brand: string]: BrandBoards[]
+}
+
+export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardData }) => {
   const [modelExists, setModelExists] = useState<boolean>(false);
   const [errorThrown, setErrorThrown] = useState<boolean>(false);
   const [modelURL, setModelURL] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
+
+
+  const handleModalOpen = () => {
+    setModalOpen(true);
+  }
+
+  const handleModalCloser = () => {
+    setModalOpen(false);
+  }
+
+  const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
   useEffect(() => {
-
     const checkModelExists = async () => {
+      setErrorThrown(false);
       try {
         const response = await axios.post(`http://127.0.0.1:8000/model-existence/${board}/`);
         if (response.data.modelExists) {
@@ -27,22 +66,21 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board }) => {
       }
       catch (error: unknown) {
         if (axios.isAxiosError(error)) {
-          const requestError = error as AxiosError;
-          if (requestError.response?.status !== 200) {
-            setErrorThrown(true);
-          }
+          setErrorThrown(true);
         }
       }
     };
 
     const getGLBModel = async () => {
+      setLoading(true)
       try {
+        await delay(20000);
         const response = await axios.get<Blob>(`http://127.0.0.1:8000/get-glb-model/${board}/`, {
           responseType: 'blob'
         })
-        console.log(response.data);
         const objectURL = URL.createObjectURL(response.data);
         setModelURL(objectURL)
+        console.log(loading);
       }
       catch (error: unknown) {
         if (axios.isAxiosError(error)) {
@@ -53,13 +91,22 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board }) => {
           }
         }
       }
+      finally {
+        setLoading(false);
+      }
     }
-    
+
     if (brand != null && board != null) {
       checkModelExists();
       getGLBModel();
     }
   }, [brand, board])
+
+  useEffect(() => {
+    if (errorThrown) {
+      setModalOpen(true);
+    }
+  }, [errorThrown])
 
   const Model = ({ modelURL }: { modelURL: string }) => {
     const modelRef = useRef<Mesh>(null!);
@@ -81,35 +128,72 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board }) => {
     );
   }
 
-
   if (errorThrown) {
     return (
-      <div>
-        <span>There was a problem getting the model, please try again later</span>
-      </div>
+      <Modal
+        title = "Problem"
+        centered
+        open = {modalOpen}
+        onOk = {() => setModalOpen(false)}
+        onCancel = {() => setModalOpen(false)}
+        footer = {null}
+      >
+        <p>
+          There was an issue getting the board model.
+        </p>
+        <p>
+          Please try another board, or try again later.
+        </p>
+      </Modal>
     );
   }
 
-  else if (modelURL && <Model modelURL={modelURL} />) {
-
+  if (loading) {
     return (
-      <div 
+      <div
         style = {{
-          height: 'auto',
-          width: '30vw',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          cursor: 'grab'
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '100%',
+          height: 'auto'
         }}
       >
-        <Canvas>
-          <ambientLight intensity={2} />
-          <directionalLight position={[10, 10, 5]} intensity={1} />
-          <directionalLight position={[-10, -10, -5]} intensity={1} />
-          {modelURL && <Model modelURL={modelURL} />}
-          <OrbitControls />
-        </Canvas>
+        <LoadingOutlined
+          style={{
+            display: 'flex',
+            fontSize: '500px',
+            color: 'yellow'
+          }}
+        />
       </div>
+      
+    )
+  }
+
+  if (modelURL && <Model modelURL={modelURL} />) {
+    return (
+      <>
+        <BoardInfo board={board} brand={brand} boardData={boardData} />
+        <div
+          style={{
+            height: 'auto',
+            width: '30vw',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            cursor: 'grab'
+          }}
+        >
+          <Canvas>
+            <ambientLight intensity={2} />
+            <directionalLight position={[10, 10, 5]} intensity={1} />
+            <directionalLight position={[-10, -10, -5]} intensity={1} />
+            {modelURL && <Model modelURL={modelURL} />}
+            <OrbitControls />
+          </Canvas>
+        </div>
+      </>
+
     )
   }
 
