@@ -1,13 +1,30 @@
 # RideRender
+![Demo GIF](./demo2.gif)
+
+Site has been fully updated, should work end to end now.
+
+*Still have a couple things that need to be cleaned up*
+* Finish cleaning up models and get them uploaded
+* Get the site live
+
+*Things to be added eventually*
+* Popup on first load to explain controls
+* User controls for lighting and background
+* UI improvements
+
+
+
+### Old README
+#### Keeping for Reference
 ![Demo GIF](./demo.gif)
 
-Currently a Work in Progress
+~~Currently a Work in Progress~~
 
-Ultimately, this is a site for viewing 3D models of snowboards purchasable from a large retailer. 
+~~Ultimately, this is a site for viewing 3D models of snowboards purchasable from a large retailer.~~ 
 
-Frontend is mostly complete, a couple things probably still need tweeking. 
+~~Frontend is mostly complete, a couple things probably still need tweaking. ~~
 
-Model generation is handled on the backend with python. Logic there is still the main blocker. Currently the models are only generated as single flat meshes, that I'm then doubling and applying some thickness to. 
+~~Model generation is handled on the backend with python. Logic there is still the main blocker. Currently the models are only generated as single flat meshes, that I'm then doubling and applying some thickness to.~~
 
 *Issues as of 12/17/24*
 * Model: Flat meshes make flat models. Still need to ~~extrude depth and~~ fix the tip and tail curvature for all generated models.
