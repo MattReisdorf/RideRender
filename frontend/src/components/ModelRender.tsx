@@ -74,7 +74,7 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
     const getGLBModel = async () => {
       setLoading(true)
       try {
-        await delay(20000);
+        await delay(1500);
         const response = await axios.get<Blob>(`http://127.0.0.1:8000/get-glb-model/${board}/`, {
           responseType: 'blob'
         })
