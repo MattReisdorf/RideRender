@@ -1,0 +1,24 @@
+# backend/DockerFile
+
+# Use a lightweight base image with Python
+FROM python:3.9-slim
+
+# Ensure Python doesn't genereate .pyc files and output is unbuffered
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Work inside /app
+WORKDIR /app
+
+# Copy requirements and install dependencies
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy Django project code into the container
+COPY . /app/
+
+# Set Port
+ENV PORT=8000
+
+# Use gunicorn to server the Django app
+CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi:application" ]

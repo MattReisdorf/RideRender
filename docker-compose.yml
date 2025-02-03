@@ -1,0 +1,22 @@
+version: "1.0"
+
+services:
+  backend:
+    build: ./backend
+    container_name: django_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./secrets/firebase.json:/app/secrets/firebase.json:ro
+    environment:
+      - FIREBASE_SA_PATH=/app/secrets/firebase.json
+      - FIREBASE_BUCKET_NAME=riderender-34a25.firebasestorage.app
+    # env_file:
+    #   - .env
+
+
+  frontend:
+    build: ./frontend
+    container_name: react_frontend
+    ports:
+      - "3000:80"

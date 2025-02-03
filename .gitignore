@@ -40,3 +40,5 @@ TODO.md
 /image-processing/riderender-34a25-firebase-adminsdk-fbsvc-24f7007f9f.json
 backend/RideRenderBackend/riderender-34a25-firebase-adminsdk-fbsvc-24f7007f9f.json
 backend/RideRenderBackend/.env
+
+/secrets/
