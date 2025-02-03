@@ -17,10 +17,6 @@ interface ModelRenderProps {
   boardData: BoardsData
 }
 
-interface BoardsJSON {
-  [key: string]: string[]
-};
-
 interface BoardModel {
   name: string,
   link: string,
@@ -43,15 +39,6 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
   const [modelURL, setModelURL] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [modalOpen, setModalOpen] = useState<boolean>(false);
-
-
-  const handleModalOpen = () => {
-    setModalOpen(true);
-  }
-
-  const handleModalCloser = () => {
-    setModalOpen(false);
-  }
 
   const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -80,13 +67,11 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
         })
         const objectURL = URL.createObjectURL(response.data);
         setModelURL(objectURL)
-        console.log(loading);
       }
       catch (error: unknown) {
         if (axios.isAxiosError(error)) {
           const requestError = error as AxiosError;
           if (requestError.response?.status !== 200) {
-            console.log(error);
             setErrorThrown(true)
           }
         }

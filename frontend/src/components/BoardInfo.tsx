@@ -1,6 +1,5 @@
-import { Button, Card, Col, Divider, Flex, List, Row, Space, Typography } from 'antd';
-import Meta from 'antd/es/card/Meta';
-import React, { useState, useEffect, useRef } from 'react';
+import { Button, Card, Col, Row, Space } from 'antd';
+import React from 'react';
 
 
 interface ModelRenderProps {
@@ -8,10 +7,6 @@ interface ModelRenderProps {
   board: string | null,
   boardData: BoardsData
 }
-
-interface BoardsJSON {
-  [key: string]: string[]
-};
 
 interface BoardModel {
 name: string,
