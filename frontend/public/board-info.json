@@ -1583,28 +1583,6 @@
       }
     },
     {
-      "https://evo.com/snowboards/capita-the-black-snowboard-of-death": {
-        "name": "https://evo.com/snowboards/capita-the-black-snowboard-of-death",
-        "link": "https://evo.com/snowboards/capita-the-black-snowboard-of-death",
-        "sizes": [
-          "156",
-          "157W",
-          "159",
-          "161W",
-          "162",
-          "165W",
-          "169W"
-        ],
-        "price": "$699.95",
-        "Terrain:": "All-Mountain, Freeride",
-        "Ability Level:": "Advanced-Expert",
-        "Rocker Type:": "Rocker/Camber/Rocker",
-        "Shape:": "Directional",
-        "Flex Rating:": "Medium",
-        "Binding Mount Pattern:": "2x4"
-      }
-    },
-    {
       "capita-the-navigator": {
         "name": "capita-the-navigator",
         "link": "https://evo.com/snowboards/capita-the-navigator-snowboard",
@@ -3445,25 +3423,6 @@
         "Rocker Type:": "Camber/Rocker/Camber",
         "Shape:": "Directional",
         "Flex Rating:": "Medium",
-        "Binding Mount Pattern:": "2x4"
-      }
-    }
-  ],
-  "lobster": [
-    {
-      "lobster-sender": {
-        "name": "lobster-sender",
-        "link": "https://evo.com/snowboards/lobster-sender-snowboard",
-        "sizes": [
-          "153",
-          "159"
-        ],
-        "price": "$329.97 Sale",
-        "Terrain:": "All-Mountain",
-        "Ability Level:": "Advanced-Expert",
-        "Rocker Type:": "Camber",
-        "Shape:": "True Twin",
-        "Flex Rating:": "Stiff",
         "Binding Mount Pattern:": "2x4"
       }
     }
