@@ -11,10 +11,10 @@
     position: fixed;
     right: 0;
     top: 5%;
-    transform: translateY(-5%);
+    /* transform: translateY(-5%);
     z-index: 1001;
     visibility: visible;
-    transition: right 0.3s ease, visibility 0s 0.29s;
+    transition: right 0.3s ease, visibility 0s 0.29s; */
     
 }
 
@@ -22,9 +22,9 @@
     visibility: hidden;
 }
 
-.openedBrandDrawerButton {
+/* .openedBrandDrawerButton {
     right: 348px;
-}
+} */
 
 .brandDrawer {
     display: grid;
