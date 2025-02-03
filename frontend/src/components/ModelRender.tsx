@@ -1,185 +1,185 @@
-import React, { useState, useEffect }from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import axios, { AxiosError } from 'axios'
 
-import { Canvas, useLoader } from '@react-three/fiber';
+import { Canvas, useLoader, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
-import { TextureLoader, Mesh, MeshStandardMaterial, MeshBasicMaterial, FrontSide, BackSide } from 'three';
+import { Mesh } from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { BoardInfo } from './BoardInfo';
+import { Modal } from 'antd';
 
-
+import { LoadingOutlined } from '@ant-design/icons';
 
 
 interface ModelRenderProps {
-    brand: string | null,
-    board: string | null
+  brand: string | null,
+  board: string | null,
+  boardData: BoardsData
 }
 
-export const ModelRender: React.FC<ModelRenderProps> = ({brand, board}) => {
+interface BoardModel {
+  name: string,
+  link: string,
+  sizes: string[],
+  price: string;
+  [key: string]: string | string[]
+}
 
-    const [manufacturer, setManufacturer] = useState<string | null>(null);
-    const [model, setModel] = useState<string | null>(null);
-    const [modelExists, setModelExists] = useState<boolean>(false);
-    const [errorThrown, setErrorThrown] = useState<boolean>(false);
+interface BrandBoards {
+  [modelName: string]: BoardModel;
+}
 
-    const [defaultTexturePath, setDefaultTexturePath] = useState<string>('/images/mens/Burton/splits/Burton-Family-Tree-3D-Daily-Driver/Burton-Family-Tree-3D-Daily-Driver_0.jpg')
+interface BoardsData {
+  [brand: string]: BrandBoards[]
+}
 
-    useEffect(() => {
-        const checkFileExists = async() => {
-            try {
-                const makeModel = {
-                    brand: brand,
-                    board: board
-                };
-                const response = await axios.post('http://127.0.0.1:8000/model-existence/', makeModel)
-                if (response.data.modelExists) {
-                    console.log(response.data.path)
-                    setDefaultTexturePath(response.data.path)
-                    setDefaultTexturePath(defaultTexturePath.replace('E:/Projects/RideRender/frontend/public', '').replace('models', 'splits').replace('.obj', '_0.jpg').replace(/\\/g, '/'))
-                    setManufacturer(brand)
-                    setModel(board)
-                }
-            }
-            catch (error: unknown) {
-                if (axios.isAxiosError(error)) {
-                    const requestError = error as AxiosError;
-                    if(requestError.response?.status !== 200) {
-                        setErrorThrown(true)
-                    }
-                }
-            }
-        };
-        checkFileExists();
-    }, [brand, board]);
+export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardData }) => {
+  const [modelExists, setModelExists] = useState<boolean>(false);
+  const [errorThrown, setErrorThrown] = useState<boolean>(false);
+  const [modelURL, setModelURL] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
 
-    const modelPath = (
-        manufacturer === 'Yes'
-        ?
-        `/images/mens/${manufacturer}/models/${manufacturer?.replace(/ /g, '-')}.-${model?.replace(/ /g, '-')}/${manufacturer?.replace(/ /g, '-')}.-${model?.replace(/ /g, '-')}.obj`
-        :
-        `/images/mens/${manufacturer}/models/${manufacturer?.replace(/ /g, '-')}-${model?.replace(/ /g, '-')}/${manufacturer?.replace(/ /g, '-')}-${model?.replace(/ /g, '-')}.obj`
-    );
+  const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-    // const texturePath = (
-    //     manufacturer === 'Yes'
-    //     ?
-    //     `/images/mens/${manufacturer}/splits/${manufacturer?.replace(/ /g, '-')}.-${model?.replace(/ /g, '-')}/${manufacturer?.replace(/ /g, '-')}.-${model?.replace(/ /g, '-')}_0.jpg`
-    //     :
-    //     `/images/mens/${manufacturer}/splits/${manufacturer?.replace(/ /g, '-')}-${model?.replace(/ /g, '-')}/${manufacturer?.replace(/ /g, '-')}-${model?.replace(/ /g, '-')}_0.jpg`
-    // )
+  useEffect(() => {
+    const checkModelExists = async () => {
+      setErrorThrown(false);
+      try {
+        const response = await axios.post(`http://127.0.0.1:8000/model-existence/${board}/`);
+        if (response.data.modelExists) {
+          setModelExists(true);
+        }
+      }
+      catch (error: unknown) {
+        if (axios.isAxiosError(error)) {
+          setErrorThrown(true);
+        }
+      }
+    };
 
-
-    console.log(defaultTexturePath)
-    // if (modelExists) {
-    //     const modelOBJ = useLoader(OBJLoader, modelPath)
-    //     const texture = useLoader(TextureLoader, texturePath)
-    //     modelOBJ.traverse((child) => {
-    //         if ((child as Mesh).isMesh) {
-    //           const mesh = child as Mesh;
-    //           if (Array.isArray(mesh.material)) {
-    //             mesh.material.forEach((material) => {
-    //               if (material instanceof MeshStandardMaterial) {
-    //                 material.map = texture;
-    //               }
-    //             });
-    //           } else if (mesh.material instanceof MeshStandardMaterial) {
-    //             mesh.material.map = texture;
-    //           }
-    //         }
-    //       });
-    // }
-
-
-    const modelOBJFront = useLoader(OBJLoader, modelPath)
-    const texture = useLoader(TextureLoader, defaultTexturePath);
-
-    const frontMaterial = new MeshBasicMaterial({ color: 'black', side: FrontSide })
-    const backMaterial = new MeshBasicMaterial({ color: 'red', side: BackSide })
-
-    // modelOBJFront?.traverse((child) => {
-    //     if ((child as Mesh).isMesh) {
-    //         const mesh = child as Mesh;
-    //         if (Array.isArray(mesh.material)) {
-    //         mesh.material.forEach((material) => {
-    //             if (material instanceof MeshStandardMaterial) {
-    //             material.map = texture;
-    //             }
-    //         });
-    //         } else if (mesh.material instanceof MeshStandardMaterial) {
-    //         mesh.material.map = texture;
-    //         }
-    //         (child as Mesh).material = frontMaterial
-    //     }
-    //     });
-
-    // const modelOBJBack = modelOBJFront.clone()
-    // modelOBJBack.traverse((child) => {
-    //     if((child as Mesh).isMesh) {
-    //         (child as Mesh).material = backMaterial
-    //     }
-    // })
-
-    // const texture = useLoader(TextureLoader, texturePath)
-
-    // modelOBJ.traverse((child) => {
-    //     if ((child as Mesh).isMesh) {
-    //         (child as Mesh).material.map = texture;
-    //     }
-    // })
-    // modelOBJ.traverse((child) => {
-    //     if ((child as Mesh).isMesh) {
-    //         const mesh = child as Mesh
-    //         if (Array.isArray(mesh.material)) {
-    //             mesh.material.forEach((material) => {
-    //                 if (material instanceof MeshStandardMaterial) {
-    //                     material.map(texture)
-    //                 }
-    //             })
-    //         }
-    //     }
-    // })
-
-    modelOBJFront.traverse((child) => {
-        if ((child as Mesh).isMesh) {
-          const mesh = child as Mesh;
-          if (Array.isArray(mesh.material)) {
-            mesh.material.forEach((material) => {
-              if (material instanceof MeshStandardMaterial) {
-                material.map = texture;
-              }
-            });
-          } else if (mesh.material instanceof MeshStandardMaterial) {
-            mesh.material.map = texture;
+    const getGLBModel = async () => {
+      setLoading(true)
+      try {
+        await delay(1500);
+        const response = await axios.get<Blob>(`http://127.0.0.1:8000/get-glb-model/${board}/`, {
+          responseType: 'blob'
+        })
+        const objectURL = URL.createObjectURL(response.data);
+        setModelURL(objectURL)
+      }
+      catch (error: unknown) {
+        if (axios.isAxiosError(error)) {
+          const requestError = error as AxiosError;
+          if (requestError.response?.status !== 200) {
+            setErrorThrown(true)
           }
         }
-      });
+      }
+      finally {
+        setLoading(false);
+      }
+    }
 
+    if (brand != null && board != null) {
+      checkModelExists();
+      getGLBModel();
+    }
+  }, [brand, board])
+
+  useEffect(() => {
     if (errorThrown) {
-        return (
-            <div>
-                <span>There was a problem getting the model, please try again later</span>
-            </div>
-        );
+      setModalOpen(true);
     }
+  }, [errorThrown])
 
-    else if (manufacturer && model) {
+  const Model = ({ modelURL }: { modelURL: string }) => {
+    const modelRef = useRef<Mesh>(null!);
+    useFrame(() => {
+      modelRef.current.rotation.y = Math.PI;
+    })
+    const gltf = useLoader(GLTFLoader, modelURL);
 
-        return (
-            <Canvas>
-                <ambientLight intensity={0.5} />
-                <directionalLight position={[10, 10, 5]} intensity={1} />
-                <directionalLight position={[-10, -10, -5]} intensity={1} />
-                {/* <primitive object={modelOBJ} scale={[2, 2, 2]}/> */}
-                <primitive object={modelOBJFront} />
-                {/* <primitive object = {modelOBJBack} /> */}
-                <OrbitControls />
-            </Canvas>
+    useThree(({ camera }) => {
+      camera.position.z = 6;
+      camera.lookAt(0, 0, 0)
+    })
 
+    return (
+      <primitive
+        object={gltf.scene}
+        ref={modelRef}
+      />
+    );
+  }
 
-        )
-    }
+  if (errorThrown) {
+    return (
+      <Modal
+        title = "Problem"
+        centered
+        open = {modalOpen}
+        onOk = {() => setModalOpen(false)}
+        onCancel = {() => setModalOpen(false)}
+        footer = {null}
+      >
+        <p>
+          There was an issue getting the board model.
+        </p>
+        <p>
+          Please try another board, or try again later.
+        </p>
+      </Modal>
+    );
+  }
 
+  if (loading) {
+    return (
+      <div
+        style = {{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '100%',
+          height: 'auto'
+        }}
+      >
+        <LoadingOutlined
+          style={{
+            display: 'flex',
+            fontSize: '5vw',
+          }}
+        />
+      </div>
+      
+    )
+  }
 
+  if (modelURL && <Model modelURL={modelURL} />) {
+    return (
+      <>
+        <BoardInfo board={board} brand={brand} boardData={boardData} />
+        <div
+          style={{
+            height: 'auto',
+            width: '30vw',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            cursor: 'grab'
+          }}
+        >
+          <Canvas>
+            <ambientLight intensity={2} />
+            <directionalLight position={[10, 10, 5]} intensity={1} />
+            <directionalLight position={[-10, -10, -5]} intensity={1} />
+            {modelURL && <Model modelURL={modelURL} />}
+            <OrbitControls />
+          </Canvas>
+        </div>
+      </>
 
+    )
+  }
 
-    return(null)
+  return (null)
 }

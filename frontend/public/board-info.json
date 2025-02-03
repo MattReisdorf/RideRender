@@ -1,0 +1,6658 @@
+{
+  "arbor": [
+    {
+      "arbor-a-frame": {
+        "name": "arbor-a-frame",
+        "link": "https://evo.com/snowboards/arbor-a-frame-snowboard",
+        "sizes": [
+          "158",
+          "159W",
+          "162",
+          "165Mw",
+          "170W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-bryan-iguchi-pro": {
+        "name": "arbor-bryan-iguchi-pro",
+        "link": "https://evo.com/snowboards/arbor-bryan-iguchi-pro-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "158W",
+          "159",
+          "162",
+          "163Mw",
+          "167W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-candle-rain": {
+        "name": "arbor-candle-rain",
+        "link": "https://evo.com/snowboards/arbor-candle-rain-snowboard",
+        "sizes": [
+          "149",
+          "153",
+          "155",
+          "157",
+          "158W",
+          "159",
+          "161"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-carbon-coda": {
+        "name": "arbor-carbon-coda",
+        "link": "https://evo.com/snowboards/arbor-carbon-coda-snowboard",
+        "sizes": [
+          "155",
+          "158",
+          "159W",
+          "161"
+        ],
+        "price": "$699.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-carter": {
+        "name": "arbor-carter",
+        "link": "https://evo.com/snowboards/arbor-carter-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "155",
+          "158",
+          "161"
+        ],
+        "price": "$559.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-coda": {
+        "name": "arbor-coda",
+        "link": "https://evo.com/snowboards/arbor-coda-snowboard",
+        "sizes": [
+          "155",
+          "158",
+          "159W",
+          "161"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-draft": {
+        "name": "arbor-draft",
+        "link": "https://evo.com/snowboards/arbor-draft-snowboard",
+        "sizes": [
+          "148",
+          "152",
+          "155W"
+        ],
+        "price": "$419.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-element-decon": {
+        "name": "arbor-element-decon",
+        "link": "https://evo.com/snowboards/arbor-element-decon-snowboard",
+        "sizes": [
+          "154",
+          "156",
+          "157Mw",
+          "158",
+          "163Mw"
+        ],
+        "price": "$399.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-element": {
+        "name": "arbor-element",
+        "link": "https://evo.com/snowboards/arbor-element-snowboard",
+        "sizes": [
+          "154",
+          "156",
+          "157Mw",
+          "158",
+          "161Mw",
+          "163Mw"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-formula": {
+        "name": "arbor-formula",
+        "link": "https://evo.com/snowboards/arbor-formula-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "157W",
+          "159",
+          "160Mw",
+          "162W"
+        ],
+        "price": "$399.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-gps": {
+        "name": "arbor-gps",
+        "link": "https://evo.com/snowboards/arbor-gps-snowboard",
+        "sizes": [
+          "156",
+          "158W",
+          "159",
+          "162",
+          "163Mw"
+        ],
+        "price": "$629.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-metal-machine": {
+        "name": "arbor-metal-machine",
+        "link": "https://evo.com/snowboards/arbor-metal-machine-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "156"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-padre": {
+        "name": "arbor-padre",
+        "link": "https://evo.com/snowboards/arbor-padre-snowboard",
+        "sizes": [
+          "157",
+          "161"
+        ],
+        "price": "$579.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-relapse": {
+        "name": "arbor-relapse",
+        "link": "https://evo.com/snowboards/arbor-relapse-snowboard",
+        "sizes": [
+          "153",
+          "155",
+          "155Mw"
+        ],
+        "price": "$399.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-satori": {
+        "name": "arbor-satori",
+        "link": "https://evo.com/snowboards/arbor-satori-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "154",
+          "157"
+        ],
+        "price": "$619.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-single": {
+        "name": "arbor-single",
+        "link": "https://evo.com/snowboards/arbor-single-snowboard",
+        "sizes": [
+          "152",
+          "156"
+        ],
+        "price": "$559.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-terra-pin": {
+        "name": "arbor-terra-pin",
+        "link": "https://evo.com/snowboards/arbor-terra-pin-snowboard",
+        "sizes": [
+          "156",
+          "159"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-terra-twin": {
+        "name": "arbor-terra-twin",
+        "link": "https://evo.com/snowboards/arbor-terra-twin-snowboard",
+        "sizes": [
+          "152",
+          "155"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-verado": {
+        "name": "arbor-verado",
+        "link": "https://evo.com/snowboards/arbor-verado-snowboard",
+        "sizes": [
+          "157",
+          "159",
+          "162W"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker",
+        "Shape:": "Directional",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "arbor-westmark": {
+        "name": "arbor-westmark",
+        "link": "https://evo.com/snowboards/arbor-westmark-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "157",
+          "160"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "bataleon": [
+    {
+      "bataleon-beyond-medals": {
+        "name": "bataleon-beyond-medals",
+        "link": "https://evo.com/snowboards/bataleon-beyond-medals-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "156",
+          "158Mw",
+          "159",
+          "161W",
+          "164W"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-blow": {
+        "name": "bataleon-blow",
+        "link": "https://evo.com/snowboards/bataleon-blow-snowboard",
+        "sizes": [
+          "145",
+          "148",
+          "151",
+          "153",
+          "154W",
+          "155"
+        ],
+        "price": "$429.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-chameleon": {
+        "name": "bataleon-chameleon",
+        "link": "https://evo.com/snowboards/bataleon-chameleon-snowboard",
+        "sizes": [
+          "149",
+          "153",
+          "157"
+        ],
+        "price": "$659.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-chaser": {
+        "name": "bataleon-chaser",
+        "link": "https://evo.com/snowboards/bataleon-chaser-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "155",
+          "157",
+          "159",
+          "159W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-cruiser": {
+        "name": "bataleon-cruiser",
+        "link": "https://evo.com/snowboards/bataleon-cruiser-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "159",
+          "161",
+          "164"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-disaster-2": {
+        "name": "bataleon-disaster-2",
+        "link": "https://evo.com/snowboards/bataleon-disaster-snowboard-2",
+        "sizes": [
+          "144",
+          "148",
+          "151",
+          "153W",
+          "154",
+          "156W",
+          "157"
+        ],
+        "price": "$469.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-disaster": {
+        "name": "bataleon-disaster",
+        "link": "https://evo.com/snowboards/bataleon-disaster-snowboard",
+        "sizes": [
+          "151",
+          "153W",
+          "154",
+          "156W",
+          "157"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-evil-twin-2": {
+        "name": "bataleon-evil-twin-2",
+        "link": "https://evo.com/snowboards/bataleon-evil-twin-snowboard-2",
+        "sizes": [
+          "151",
+          "154",
+          "156W",
+          "157",
+          "159",
+          "159W"
+        ],
+        "price": "$589.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-evil-twin": {
+        "name": "bataleon-evil-twin",
+        "link": "https://evo.com/snowboards/bataleon-evil-twin-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "156W",
+          "157",
+          "159",
+          "159W"
+        ],
+        "price": "$699.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-funkink": {
+        "name": "bataleon-funkink",
+        "link": "https://evo.com/snowboards/bataleon-funkink-snowboard",
+        "sizes": [
+          "149",
+          "151",
+          "154",
+          "157",
+          "159W",
+          "162W"
+        ],
+        "price": "$479.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-goliath-2": {
+        "name": "bataleon-goliath-2",
+        "link": "https://evo.com/snowboards/bataleon-goliath-snowboard-2",
+        "sizes": [
+          "153",
+          "156",
+          "158W",
+          "159",
+          "161W",
+          "164W",
+          "167W"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freestyle, All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-goliath": {
+        "name": "bataleon-goliath",
+        "link": "https://evo.com/snowboards/bataleon-goliath-snowboard",
+        "sizes": [
+          "156",
+          "158W",
+          "159",
+          "161W",
+          "164W"
+        ],
+        "price": "$699.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-party-wave": {
+        "name": "bataleon-party-wave",
+        "link": "https://evo.com/snowboards/bataleon-party-wave-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "154",
+          "157"
+        ],
+        "price": "$479.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-surfer": {
+        "name": "bataleon-surfer",
+        "link": "https://evo.com/snowboards/bataleon-surfer-snowboard",
+        "sizes": [
+          "149"
+        ],
+        "price": "$999.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-thunderstorm": {
+        "name": "bataleon-thunderstorm",
+        "link": "https://evo.com/snowboards/bataleon-thunderstorm-snowboard",
+        "sizes": [
+          "144N",
+          "148N",
+          "152N",
+          "154",
+          "156",
+          "156N",
+          "156W",
+          "158",
+          "159W",
+          "161",
+          "162W"
+        ],
+        "price": "$529.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-turbo": {
+        "name": "bataleon-turbo",
+        "link": "https://evo.com/snowboards/bataleon-turbo-snowboard",
+        "sizes": [
+          "146N",
+          "149N",
+          "153",
+          "156",
+          "158W",
+          "159",
+          "164W",
+          "167W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-wallie": {
+        "name": "bataleon-wallie",
+        "link": "https://evo.com/snowboards/bataleon-wallie-snowboard",
+        "sizes": [
+          "145",
+          "151",
+          "154"
+        ],
+        "price": "$529.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "bataleon-whatever": {
+        "name": "bataleon-whatever",
+        "link": "https://evo.com/snowboards/bataleon-whatever-snowboard",
+        "sizes": [
+          "138",
+          "144",
+          "148",
+          "151",
+          "154",
+          "156W",
+          "157",
+          "159W",
+          "162W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "burton": [
+    {
+      "burton-blossom": {
+        "name": "burton-blossom",
+        "link": "https://evo.com/snowboards/burton-blossom-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "162"
+        ],
+        "price": "$619.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-cartographer": {
+        "name": "burton-cartographer",
+        "link": "https://evo.com/snowboards/burton-cartographer-snowboard",
+        "sizes": [
+          "144",
+          "149",
+          "154",
+          "154W",
+          "159",
+          "159W",
+          "162"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-custom-flying-v": {
+        "name": "burton-custom-flying-v",
+        "link": "https://evo.com/snowboards/burton-custom-flying-v-snowboard",
+        "sizes": [
+          "150",
+          "154",
+          "156",
+          "158",
+          "158W",
+          "162",
+          "166W"
+        ],
+        "price": "$669.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Roc/Cam/Roc/Cam/Roc",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-custom": {
+        "name": "burton-custom",
+        "link": "https://evo.com/snowboards/burton-custom-snowboard",
+        "sizes": [
+          "150",
+          "154",
+          "154W",
+          "156",
+          "158",
+          "158W",
+          "162",
+          "162W",
+          "166W",
+          "170W"
+        ],
+        "price": "$669.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-custom-x": {
+        "name": "burton-custom-x",
+        "link": "https://evo.com/snowboards/burton-custom-x-snowboard",
+        "sizes": [
+          "150",
+          "154",
+          "162"
+        ],
+        "price": "$849.95",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-deep-thinker": {
+        "name": "burton-deep-thinker",
+        "link": "https://evo.com/snowboards/burton-deep-thinker-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "157W",
+          "160",
+          "160W",
+          "163W"
+        ],
+        "price": "$639.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-3d-channel-surfer": {
+        "name": "burton-family-tree-3d-channel-surfer",
+        "link": "https://evo.com/snowboards/burton-family-tree-3d-channel-surfer-snowboard",
+        "sizes": [
+          "144",
+          "150"
+        ],
+        "price": "$774.95"
+      }
+    },
+    {
+      "burton-family-tree-3d-double-dog": {
+        "name": "burton-family-tree-3d-double-dog",
+        "link": "https://evo.com/snowboards/burton-family-tree-3d-double-dog-snowboard",
+        "sizes": [
+          "164"
+        ],
+        "price": "$419.99 Sale",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-alekesam": {
+        "name": "burton-family-tree-alekesam",
+        "link": "https://evo.com/snowboards/burton-family-tree-alekesam-snowboard",
+        "sizes": [
+          "140",
+          "144",
+          "148",
+          "152",
+          "152W",
+          "156",
+          "156W",
+          "160"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-gril-master-2024": {
+        "name": "burton-family-tree-gril-master-2024",
+        "link": "https://evo.com/snowboards/burton-family-tree-gril-master-snowboard-2024",
+        "sizes": [
+          "150"
+        ],
+        "price": "$475.96 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-gril-master": {
+        "name": "burton-family-tree-gril-master",
+        "link": "https://evo.com/snowboards/burton-family-tree-gril-master-snowboard",
+        "sizes": [
+          "140",
+          "145",
+          "150",
+          "155W",
+          "165"
+        ],
+        "price": "$679.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-high-fidelity": {
+        "name": "burton-family-tree-high-fidelity",
+        "link": "https://evo.com/snowboards/burton-family-tree-high-fidelity-snowboard",
+        "sizes": [
+          "150",
+          "154",
+          "158",
+          "158W",
+          "162",
+          "162W",
+          "166"
+        ],
+        "price": "$679.95",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-hometown-hero-smalls": {
+        "name": "burton-family-tree-hometown-hero-smalls",
+        "link": "https://evo.com/snowboards/burton-family-tree-hometown-hero-smalls-snowboard",
+        "sizes": [
+          "130"
+        ],
+        "price": "$389.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-hometown-hero": {
+        "name": "burton-family-tree-hometown-hero",
+        "link": "https://evo.com/snowboards/burton-family-tree-hometown-hero-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "152",
+          "156",
+          "156W",
+          "160",
+          "160W",
+          "165W"
+        ],
+        "price": "$669.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-family-tree-power-wagon": {
+        "name": "burton-family-tree-power-wagon",
+        "link": "https://evo.com/snowboards/burton-family-tree-power-wagon-snowboard",
+        "sizes": [
+          "148",
+          "154",
+          "166"
+        ],
+        "price": "$314.99 Sale",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-3d-fish": {
+        "name": "burton-3d-fish",
+        "link": "https://evo.com/snowboards/burton-3d-fish-snowboard",
+        "sizes": [
+          "146",
+          "151"
+        ],
+        "price": "$669.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-flight-attendant": {
+        "name": "burton-flight-attendant",
+        "link": "https://evo.com/snowboards/burton-flight-attendant-snowboard",
+        "sizes": [
+          "156W",
+          "159W"
+        ],
+        "price": "$433.96 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-free-thinker": {
+        "name": "burton-free-thinker",
+        "link": "https://evo.com/snowboards/burton-free-thinker-snowboard",
+        "sizes": [
+          "150",
+          "154",
+          "157",
+          "160",
+          "160W"
+        ],
+        "price": "$639.95",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-good-company": {
+        "name": "burton-good-company",
+        "link": "https://evo.com/snowboards/burton-good-company-snowboard",
+        "sizes": [
+          "145",
+          "148",
+          "152",
+          "155",
+          "155W",
+          "159",
+          "159W"
+        ],
+        "price": "$439.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-instigator-purepop-camber": {
+        "name": "burton-instigator-purepop-camber",
+        "link": "https://evo.com/snowboards/burton-instigator-purepop-camber-snowboard",
+        "sizes": [
+          "150",
+          "160",
+          "165W"
+        ],
+        "price": "$439.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-mystery-series-day-trader": {
+        "name": "burton-mystery-series-day-trader",
+        "link": "https://evo.com/snowboards/burton-mystery-series-day-trader-snowboard",
+        "sizes": [
+          "150"
+        ],
+        "price": "$1,799.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-process-flying-v": {
+        "name": "burton-process-flying-v",
+        "link": "https://evo.com/snowboards/burton-process-flying-v-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "155W",
+          "157",
+          "157W",
+          "159",
+          "159W",
+          "162",
+          "162W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Roc/Cam/Roc/Cam/Roc",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-process": {
+        "name": "burton-process",
+        "link": "https://evo.com/snowboards/burton-process-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "155W",
+          "157",
+          "157W",
+          "159",
+          "159W",
+          "162",
+          "162W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "Channel"
+      }
+    },
+    {
+      "burton-ripcord": {
+        "name": "burton-ripcord",
+        "link": "https://evo.com/snowboards/burton-ripcord-snowboard",
+        "sizes": [
+          "145",
+          "150",
+          "154",
+          "156W",
+          "157",
+          "158W",
+          "159",
+          "162W"
+        ],
+        "price": "$419.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Flat",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "Channel"
+      }
+    }
+  ],
+  "capita": [
+    {
+      "capita-aeronaut": {
+        "name": "capita-aeronaut",
+        "link": "https://evo.com/snowboards/capita-aeronaut-snowboard",
+        "sizes": [
+          "153",
+          "155",
+          "156W",
+          "157",
+          "159",
+          "161"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-defenders-of-awesome": {
+        "name": "capita-defenders-of-awesome",
+        "link": "https://evo.com/snowboards/capita-defenders-of-awesome-snowboard",
+        "sizes": [
+          "148",
+          "150",
+          "151W",
+          "152",
+          "153W",
+          "154",
+          "155W",
+          "156",
+          "157W",
+          "158",
+          "159W",
+          "160",
+          "161W",
+          "162",
+          "163W",
+          "164"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-indoor-survival": {
+        "name": "capita-indoor-survival",
+        "link": "https://evo.com/snowboards/capita-indoor-survival-snowboard",
+        "sizes": [
+          "152"
+        ],
+        "price": "$579.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-kazu-kokubo-pro": {
+        "name": "capita-kazu-kokubo-pro",
+        "link": "https://evo.com/snowboards/capita-kazu-kokubo-pro-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "155W",
+          "157",
+          "158W",
+          "160"
+        ],
+        "price": "$649.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-mega-mercury-2024": {
+        "name": "capita-mega-mercury-2024",
+        "link": "https://evo.com/snowboards/capita-mega-mercury-snowboard-2024",
+        "sizes": [
+          "156W",
+          "159"
+        ],
+        "price": "$559.96 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-mega-mercury": {
+        "name": "capita-mega-mercury",
+        "link": "https://evo.com/snowboards/capita-mega-mercury-snowboard",
+        "sizes": [
+          "153",
+          "155",
+          "156W",
+          "157",
+          "158W",
+          "159",
+          "161"
+        ],
+        "price": "$899.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-mercury": {
+        "name": "capita-mercury",
+        "link": "https://evo.com/snowboards/capita-mercury-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "155",
+          "156W",
+          "157",
+          "158W",
+          "159",
+          "161"
+        ],
+        "price": "$629.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-navigator": {
+        "name": "capita-navigator",
+        "link": "https://evo.com/snowboards/capita-navigator-snowboard",
+        "sizes": [
+          "151"
+        ],
+        "price": "$419.96 Sale",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-outerspace-living": {
+        "name": "capita-outerspace-living",
+        "link": "https://evo.com/snowboards/capita-outerspace-living-snowboard",
+        "sizes": [
+          "150",
+          "152",
+          "154",
+          "155W",
+          "156",
+          "157W",
+          "158",
+          "159W",
+          "160",
+          "161W"
+        ],
+        "price": "$479.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-pathfinder-camber": {
+        "name": "capita-pathfinder-camber",
+        "link": "https://evo.com/snowboards/capita-pathfinder-camber-snowboard",
+        "sizes": [
+          "151W",
+          "153",
+          "155",
+          "155W",
+          "157",
+          "157W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-pathfinder-reverse-camber-2024": {
+        "name": "capita-pathfinder-reverse-camber-2024",
+        "link": "https://evo.com/snowboards/capita-pathfinder-reverse-camber-snowboard-2024",
+        "sizes": [
+          "145",
+          "151",
+          "151W",
+          "153",
+          "153W"
+        ],
+        "price": " - ",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-pathfinder-reverse-camber": {
+        "name": "capita-pathfinder-reverse-camber",
+        "link": "https://evo.com/snowboards/capita-pathfinder-reverse-camber-snowboard",
+        "sizes": [
+          "145",
+          "147",
+          "155W",
+          "157W",
+          "159W",
+          "162W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-spring-break-powder-glider": {
+        "name": "capita-spring-break-powder-glider",
+        "link": "https://evo.com/snowboards/capita-spring-break-powder-glider-snowboard",
+        "sizes": [
+          "158"
+        ],
+        "price": "$799.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-spring-break-powder-racer": {
+        "name": "capita-spring-break-powder-racer",
+        "link": "https://evo.com/snowboards/capita-spring-break-powder-racer-snowboard",
+        "sizes": [
+          "149",
+          "151",
+          "157"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-spring-break-resort-twin": {
+        "name": "capita-spring-break-resort-twin",
+        "link": "https://evo.com/snowboards/capita-spring-break-resort-twin-snowboard",
+        "sizes": [
+          "154",
+          "155W",
+          "156",
+          "158",
+          "160"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-spring-break-slush-slasher-20": {
+        "name": "capita-spring-break-slush-slasher-20",
+        "link": "https://evo.com/snowboards/capita-spring-break-slush-slasher-20-snowboard",
+        "sizes": [
+          "147"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-super-doa": {
+        "name": "capita-super-doa",
+        "link": "https://evo.com/snowboards/capita-super-doa-snowboard",
+        "sizes": [
+          "152",
+          "154",
+          "155W",
+          "156",
+          "158",
+          "158W",
+          "160",
+          "161W",
+          "163W"
+        ],
+        "price": "$749.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-the-navigator": {
+        "name": "capita-the-navigator",
+        "link": "https://evo.com/snowboards/capita-the-navigator-snowboard",
+        "sizes": [
+          "155",
+          "158",
+          "164",
+          "167"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-the-outsiders": {
+        "name": "capita-the-outsiders",
+        "link": "https://evo.com/snowboards/capita-the-outsiders-snowboard",
+        "sizes": [
+          "150",
+          "152",
+          "152W",
+          "154",
+          "156",
+          "156W",
+          "158"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-ultrafear": {
+        "name": "capita-ultrafear",
+        "link": "https://evo.com/snowboards/capita-ultrafear-snowboard",
+        "sizes": [
+          "147",
+          "149",
+          "151",
+          "153",
+          "153W",
+          "155",
+          "157"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "capita-x-bombhole-indoor-survival": {
+        "name": "capita-x-bombhole-indoor-survival",
+        "link": "https://evo.com/snowboards/capita-x-bombhole-indoor-survival-snowboard",
+        "sizes": [
+          "156"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "cardiff": [
+    {
+      "cardiff-bonsai-enduro": {
+        "name": "cardiff-bonsai-enduro",
+        "link": "https://evo.com/snowboards/cardiff-bonsai-enduro-snowboard",
+        "sizes": [
+          "154",
+          "158"
+        ],
+        "price": "$750.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "cardiff-powgoda-enduro": {
+        "name": "cardiff-powgoda-enduro",
+        "link": "https://evo.com/snowboards/cardiff-powgoda-enduro-snowboard",
+        "sizes": [
+          "152",
+          "155"
+        ],
+        "price": "$799.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "cardiff-swell": {
+        "name": "cardiff-swell",
+        "link": "https://evo.com/snowboards/cardiff-swell-snowboard",
+        "sizes": [
+          "156",
+          "160",
+          "164"
+        ],
+        "price": "$849.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "dc": [
+    {
+      "dc-aw-ply": {
+        "name": "dc-aw-ply",
+        "link": "https://evo.com/snowboards/dc-aw-ply-snowboard",
+        "sizes": [
+          "153",
+          "154W",
+          "156",
+          "159"
+        ],
+        "price": "$399.96 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "gnu": [
+    {
+      "gnu-4x4-c3-2024": {
+        "name": "gnu-4x4-c3-2024",
+        "link": "https://evo.com/snowboards/gnu-4x4-c3-snowboard-2024",
+        "sizes": [
+          "157",
+          "160"
+        ],
+        "price": "$419.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-4x4-c3": {
+        "name": "gnu-4x4-c3",
+        "link": "https://evo.com/snowboards/gnu-4x4-c3-snowboard",
+        "sizes": [
+          "157",
+          "160"
+        ],
+        "price": "$599.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-antigravity-c3-2024": {
+        "name": "gnu-antigravity-c3-2024",
+        "link": "https://evo.com/snowboards/gnu-antigravity-c3-snowboard-2024",
+        "sizes": [
+          "153",
+          "156"
+        ],
+        "price": "$335.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-antigravity-c3": {
+        "name": "gnu-antigravity-c3",
+        "link": "https://evo.com/snowboards/gnu-antigravity-c3-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "156",
+          "159",
+          "159W",
+          "162",
+          "162W"
+        ],
+        "price": "$479.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-banked-country-c3": {
+        "name": "gnu-banked-country-c3",
+        "link": "https://evo.com/snowboards/gnu-banked-country-c3-snowboard",
+        "sizes": [
+          "155",
+          "159",
+          "160W",
+          "162",
+          "163W"
+        ],
+        "price": "$629.99",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-c-money-c3": {
+        "name": "gnu-c-money-c3",
+        "link": "https://evo.com/snowboards/gnu-c-money-c3-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "150W",
+          "152",
+          "154",
+          "154W",
+          "156",
+          "158W",
+          "159"
+        ],
+        "price": "$449.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-fb-head-space-c3": {
+        "name": "gnu-fb-head-space-c3",
+        "link": "https://evo.com/snowboards/gnu-fb-head-space-c3-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "155",
+          "155W",
+          "158"
+        ],
+        "price": "$579.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-finest-asym-c2x": {
+        "name": "gnu-finest-asym-c2x",
+        "link": "https://evo.com/snowboards/gnu-finest-asym-c2x-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "155W",
+          "157"
+        ],
+        "price": "$384.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-gwo-btx": {
+        "name": "gnu-gwo-btx",
+        "link": "https://evo.com/snowboards/gnu-gwo-btx-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "153",
+          "156",
+          "156W",
+          "159",
+          "159W",
+          "162W"
+        ],
+        "price": "$459.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-gwo-c3-ltd": {
+        "name": "gnu-gwo-c3-ltd",
+        "link": "https://evo.com/snowboards/gnu-gwo-c3-ltd-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$413.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-gremlin-c3": {
+        "name": "gnu-gremlin-c3",
+        "link": "https://evo.com/snowboards/gnu-gremlin-c3-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "152",
+          "155",
+          "158",
+          "161"
+        ],
+        "price": "$579.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-hyper-c2x-2024": {
+        "name": "gnu-hyper-c2x-2024",
+        "link": "https://evo.com/snowboards/gnu-hyper-c2x-snowboard-2024",
+        "sizes": [
+          "154"
+        ],
+        "price": "$440.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-hyper-c2x": {
+        "name": "gnu-hyper-c2x",
+        "link": "https://evo.com/snowboards/gnu-hyper-c2x-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "157",
+          "159W",
+          "160"
+        ],
+        "price": "$629.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-money-c2e-2024": {
+        "name": "gnu-money-c2e-2024",
+        "link": "https://evo.com/snowboards/gnu-money-c2e-snowboard-2024",
+        "sizes": [
+          "152",
+          "154W"
+        ],
+        "price": "$314.99 Sale",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-money-c2e": {
+        "name": "gnu-money-c2e",
+        "link": "https://evo.com/snowboards/gnu-money-c2e-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "150W",
+          "152",
+          "154",
+          "156",
+          "158W",
+          "159"
+        ],
+        "price": "$449.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-riders-choice-asym-c2x-2024": {
+        "name": "gnu-riders-choice-asym-c2x-2024",
+        "link": "https://evo.com/snowboards/gnu-riders-choice-asym-c2x-snowboard-2024",
+        "sizes": [
+          "154.5",
+          "155W"
+        ],
+        "price": "$439.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-riders-choice-asym-c2x": {
+        "name": "gnu-riders-choice-asym-c2x",
+        "link": "https://evo.com/snowboards/gnu-riders-choice-asym-c2x-snowboard",
+        "sizes": [
+          "151.5",
+          "154.5",
+          "155W",
+          "157.5",
+          "158W",
+          "159.5",
+          "161.5"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-riders-choice-asym-c3": {
+        "name": "gnu-riders-choice-asym-c3",
+        "link": "https://evo.com/snowboards/gnu-riders-choice-asym-c3-snowboard",
+        "sizes": [
+          "154.5",
+          "157.5",
+          "158W",
+          "159.5",
+          "162W"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "gnu-something-c2": {
+        "name": "gnu-something-c2",
+        "link": "https://evo.com/snowboards/gnu-something-c2-snowboard",
+        "sizes": [
+          "156",
+          "161"
+        ],
+        "price": "$659.99",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Roc/Cam/Roc/Cam/Roc",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "jones": [
+    {
+      "jones-aviator-20": {
+        "name": "jones-aviator-20",
+        "link": "https://evo.com/snowboards/jones-aviator-20-snowboard",
+        "sizes": [
+          "153W",
+          "156",
+          "158",
+          "160",
+          "162"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-flagship-pro": {
+        "name": "jones-flagship-pro",
+        "link": "https://evo.com/snowboards/jones-flagship-pro-snowboard",
+        "sizes": [
+          "164"
+        ],
+        "price": "$849.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-flagship": {
+        "name": "jones-flagship",
+        "link": "https://evo.com/snowboards/jones-flagship-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "158",
+          "161",
+          "164",
+          "167"
+        ],
+        "price": "$699.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-freecarver-9000s": {
+        "name": "jones-freecarver-9000s",
+        "link": "https://evo.com/snowboards/jones-freecarver-9000s-snowboard",
+        "sizes": [
+          "152",
+          "156",
+          "160"
+        ],
+        "price": "$629.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-frontier": {
+        "name": "jones-frontier",
+        "link": "https://evo.com/snowboards/jones-frontier-snowboard",
+        "sizes": [
+          "152",
+          "156",
+          "158W",
+          "159",
+          "161W",
+          "162",
+          "164W"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-hovercraft-20": {
+        "name": "jones-hovercraft-20",
+        "link": "https://evo.com/snowboards/jones-hovercraft-20-snowboard",
+        "sizes": [
+          "148",
+          "152"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-mind-expander": {
+        "name": "jones-mind-expander",
+        "link": "https://evo.com/snowboards/jones-mind-expander-snowboard",
+        "sizes": [
+          "150",
+          "166"
+        ],
+        "price": "$569.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-mountain-twin-pro": {
+        "name": "jones-mountain-twin-pro",
+        "link": "https://evo.com/snowboards/jones-mountain-twin-pro-snowboard",
+        "sizes": [
+          "159W",
+          "160",
+          "165W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-mountain-twin": {
+        "name": "jones-mountain-twin",
+        "link": "https://evo.com/snowboards/jones-mountain-twin-snowboard",
+        "sizes": [
+          "149",
+          "151",
+          "153W",
+          "154",
+          "156W",
+          "157",
+          "160",
+          "168W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-storm-wolf": {
+        "name": "jones-storm-wolf",
+        "link": "https://evo.com/snowboards/jones-storm-wolf-snowboard",
+        "sizes": [
+          "154"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-stratos": {
+        "name": "jones-stratos",
+        "link": "https://evo.com/snowboards/jones-stratos-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "158W",
+          "161W",
+          "162"
+        ],
+        "price": "$629.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-tweaker-pro": {
+        "name": "jones-tweaker-pro",
+        "link": "https://evo.com/snowboards/jones-tweaker-pro-snowboard",
+        "sizes": [
+          "149",
+          "151"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "jones-tweaker": {
+        "name": "jones-tweaker",
+        "link": "https://evo.com/snowboards/jones-tweaker-snowboard",
+        "sizes": [
+          "149",
+          "151",
+          "154",
+          "156",
+          "157W",
+          "159",
+          "160W",
+          "162"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "k2": [
+    {
+      "k2-afterblack": {
+        "name": "k2-afterblack",
+        "link": "https://evo.com/snowboards/k2-afterblack-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "156W",
+          "157",
+          "159W",
+          "160"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-alchemist-ltd": {
+        "name": "k2-alchemist-ltd",
+        "link": "https://evo.com/snowboards/k2-alchemist-ltd-snowboard",
+        "sizes": [
+          "Curtis Ciszek",
+          "157",
+          "159W",
+          "160",
+          "164W"
+        ],
+        "price": "$749.95",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-alchemist": {
+        "name": "k2-alchemist",
+        "link": "https://evo.com/snowboards/k2-alchemist-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "160",
+          "163"
+        ],
+        "price": "$749.95",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-almanac": {
+        "name": "k2-almanac",
+        "link": "https://evo.com/snowboards/k2-almanac-snowboard",
+        "sizes": [
+          "137",
+          "141",
+          "145",
+          "149",
+          "153",
+          "157",
+          "161"
+        ],
+        "price": "$519.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-antidote": {
+        "name": "k2-antidote",
+        "link": "https://evo.com/snowboards/k2-antidote-snowboard",
+        "sizes": [
+          "145",
+          "148",
+          "151",
+          "154",
+          "157",
+          "158W",
+          "159",
+          "161W",
+          "162",
+          "163W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-commonwealth": {
+        "name": "k2-commonwealth",
+        "link": "https://evo.com/snowboards/k2-commonwealth-snowboard",
+        "sizes": [
+          "146",
+          "149",
+          "151",
+          "154",
+          "157",
+          "160",
+          "162W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-embassy": {
+        "name": "k2-embassy",
+        "link": "https://evo.com/snowboards/k2-embassy-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "155",
+          "157",
+          "157W",
+          "159",
+          "159W",
+          "162",
+          "162W"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-excavator-2025": {
+        "name": "k2-excavator-2025",
+        "link": "https://evo.com/snowboards/k2-excavator-snowboard-2025",
+        "sizes": [
+          "142",
+          "146",
+          "150",
+          "154",
+          "158",
+          "162"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-excavator": {
+        "name": "k2-excavator",
+        "link": "https://evo.com/snowboards/k2-excavator-snowboard",
+        "sizes": [
+          "150",
+          "154"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-gateway-pop": {
+        "name": "k2-gateway-pop",
+        "link": "https://evo.com/snowboards/k2-gateway-pop-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "156",
+          "159",
+          "162"
+        ],
+        "price": "$449.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-hypnotist": {
+        "name": "k2-hypnotist",
+        "link": "https://evo.com/snowboards/k2-hypnotist-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "155",
+          "157W",
+          "158",
+          "161"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-instrument": {
+        "name": "k2-instrument",
+        "link": "https://evo.com/snowboards/k2-instrument-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "160",
+          "163"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-manifest": {
+        "name": "k2-manifest",
+        "link": "https://evo.com/snowboards/k2-manifest-snowboard",
+        "sizes": [
+          "156",
+          "157W",
+          "159",
+          "160W",
+          "162"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-medium": {
+        "name": "k2-medium",
+        "link": "https://evo.com/snowboards/k2-medium-snowboard",
+        "sizes": [
+          "154W",
+          "155",
+          "157"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-niseko-pleasures": {
+        "name": "k2-niseko-pleasures",
+        "link": "https://evo.com/snowboards/k2-niseko-pleasures-snowboard",
+        "sizes": [
+          "151"
+        ],
+        "price": "$619.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-passport-2025": {
+        "name": "k2-passport-2025",
+        "link": "https://evo.com/snowboards/k2-passport-snowboard-2025",
+        "sizes": [
+          "146",
+          "149",
+          "151",
+          "151W",
+          "154",
+          "154W",
+          "157",
+          "157W",
+          "159W",
+          "160",
+          "162W",
+          "163"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-passport": {
+        "name": "k2-passport",
+        "link": "https://evo.com/snowboards/k2-passport-snowboard",
+        "sizes": [
+          "146",
+          "149",
+          "151",
+          "154",
+          "157",
+          "160"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-special-effects": {
+        "name": "k2-special-effects",
+        "link": "https://evo.com/snowboards/k2-special-effects-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "152"
+        ],
+        "price": "$619.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Flat",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-standard": {
+        "name": "k2-standard",
+        "link": "https://evo.com/snowboards/k2-standard-snowboard",
+        "sizes": [
+          "147",
+          "152",
+          "155",
+          "156W",
+          "159W",
+          "163W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-world-peace": {
+        "name": "k2-world-peace",
+        "link": "https://evo.com/snowboards/k2-world-peace-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "152W",
+          "154",
+          "155W",
+          "157"
+        ],
+        "price": "$459.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "k2-x-brain-dead-passport": {
+        "name": "k2-x-brain-dead-passport",
+        "link": "https://evo.com/snowboards/k2-x-brain-dead-passport-snowboard",
+        "sizes": [
+          "Brain Dead",
+          "149",
+          "151"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "lib-tech": [
+    {
+      "lib-tech-box-scratcher-btx": {
+        "name": "lib-tech-box-scratcher-btx",
+        "link": "https://evo.com/snowboards/lib-tech-box-scratcher-btx-snowboard",
+        "sizes": [
+          "156W"
+        ],
+        "price": "$405.99 Sale",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-cold-brew-c2": {
+        "name": "lib-tech-cold-brew-c2",
+        "link": "https://evo.com/snowboards/lib-tech-cold-brew-c2-snowboard",
+        "sizes": [
+          "149",
+          "153",
+          "155W",
+          "157",
+          "158W",
+          "161",
+          "163W"
+        ],
+        "price": "$549.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-cygnus-bm-c2": {
+        "name": "lib-tech-cygnus-bm-c2",
+        "link": "https://evo.com/snowboards/lib-tech-cygnus-bm-c2-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "161"
+        ],
+        "price": "$1,499.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-doughboy-c3": {
+        "name": "lib-tech-doughboy-c3",
+        "link": "https://evo.com/snowboards/lib-tech-doughboy-c3-snowboard",
+        "sizes": [
+          "195"
+        ],
+        "price": "$799.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-dynamo-c3-2024": {
+        "name": "lib-tech-dynamo-c3-2024",
+        "link": "https://evo.com/snowboards/lib-tech-dynamo-c3-snowboard-2024",
+        "sizes": [
+          "156W",
+          "159"
+        ],
+        "price": "$405.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-dynamo-c3": {
+        "name": "lib-tech-dynamo-c3",
+        "link": "https://evo.com/snowboards/lib-tech-dynamo-c3-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "156W",
+          "159",
+          "159W",
+          "162",
+          "162W",
+          "165W"
+        ],
+        "price": "$579.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-ejack-knife-c3": {
+        "name": "lib-tech-ejack-knife-c3",
+        "link": "https://evo.com/snowboards/lib-tech-ejack-knife-c3-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "159",
+          "159W",
+          "162W"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-jamie-lynn-c3-2024": {
+        "name": "lib-tech-jamie-lynn-c3-2024",
+        "link": "https://evo.com/snowboards/lib-tech-jamie-lynn-c3-snowboard-2024",
+        "sizes": [
+          "150",
+          "156",
+          "159"
+        ],
+        "price": "$489.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-jamie-lynn-c3": {
+        "name": "lib-tech-jamie-lynn-c3",
+        "link": "https://evo.com/snowboards/lib-tech-jamie-lynn-c3-snowboard",
+        "sizes": [
+          "150",
+          "156",
+          "159",
+          "160W"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-jamie-lynn-short-wide-c3": {
+        "name": "lib-tech-jamie-lynn-short-wide-c3",
+        "link": "https://evo.com/snowboards/lib-tech-jamie-lynn-short-wide-c3-snowboard",
+        "sizes": [
+          "150"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-jamie-lynn-twin-30yr": {
+        "name": "lib-tech-jamie-lynn-twin-30yr",
+        "link": "https://evo.com/snowboards/lib-tech-jamie-lynn-twin-30yr-snowboard",
+        "sizes": [
+          "154",
+          "159"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-legitimizer-c3": {
+        "name": "lib-tech-legitimizer-c3",
+        "link": "https://evo.com/snowboards/lib-tech-legitimizer-c3-snowboard",
+        "sizes": [
+          "147",
+          "151",
+          "153W",
+          "154",
+          "156W",
+          "157"
+        ],
+        "price": "$549.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-rig-c3": {
+        "name": "lib-tech-rig-c3",
+        "link": "https://evo.com/snowboards/lib-tech-rig-c3-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "159",
+          "160W"
+        ],
+        "price": "$659.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-rig": {
+        "name": "lib-tech-rig",
+        "link": "https://evo.com/snowboards/lib-tech-rig-snowboard",
+        "sizes": [
+          "153",
+          "156"
+        ],
+        "price": "$414.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-mc-wayfinder-ii-c2": {
+        "name": "lib-tech-mc-wayfinder-ii-c2",
+        "link": "https://evo.com/snowboards/lib-tech-mc-wayfinder-ii-c2-snowboard",
+        "sizes": [
+          "155",
+          "160"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-mayhem-rad-ripper-c3": {
+        "name": "lib-tech-mayhem-rad-ripper-c3",
+        "link": "https://evo.com/snowboards/lib-tech-mayhem-rad-ripper-c3-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-mayhem-retro-ripper-c3": {
+        "name": "lib-tech-mayhem-retro-ripper-c3",
+        "link": "https://evo.com/snowboards/lib-tech-mayhem-retro-ripper-c3-snowboard",
+        "sizes": [
+          "156",
+          "161",
+          "166"
+        ],
+        "price": "$749.99",
+        "Terrain:": "Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-mayhem-rocket-c3": {
+        "name": "lib-tech-mayhem-rocket-c3",
+        "link": "https://evo.com/snowboards/lib-tech-mayhem-rocket-c3-snowboard",
+        "sizes": [
+          "152.5",
+          "161.5"
+        ],
+        "price": "$659.99",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-off-ramp-c3": {
+        "name": "lib-tech-off-ramp-c3",
+        "link": "https://evo.com/snowboards/lib-tech-off-ramp-c3-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "154",
+          "157",
+          "157W"
+        ],
+        "price": "$579.99",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-rasman-c2x": {
+        "name": "lib-tech-rasman-c2x",
+        "link": "https://evo.com/snowboards/lib-tech-rasman-c2x-snowboard",
+        "sizes": [
+          "157",
+          "159",
+          "161"
+        ],
+        "price": "$659.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-skate-banana-btx": {
+        "name": "lib-tech-skate-banana-btx",
+        "link": "https://evo.com/snowboards/lib-tech-skate-banana-btx-snowboard",
+        "sizes": [
+          "152",
+          "156W",
+          "159",
+          "159W"
+        ],
+        "price": "$579.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-skunk-ape-c2x": {
+        "name": "lib-tech-skunk-ape-c2x",
+        "link": "https://evo.com/snowboards/lib-tech-skunk-ape-c2x-snowboard",
+        "sizes": [
+          "157W",
+          "161W",
+          "165W",
+          "169W",
+          "170Uw"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-skunk-ape-c3": {
+        "name": "lib-tech-skunk-ape-c3",
+        "link": "https://evo.com/snowboards/lib-tech-skunk-ape-c3-snowboard",
+        "sizes": [
+          "161W",
+          "165W",
+          "170Uw"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-skunk-ape-ii-c2x": {
+        "name": "lib-tech-skunk-ape-ii-c2x",
+        "link": "https://evo.com/snowboards/lib-tech-skunk-ape-ii-c2x-snowboard",
+        "sizes": [
+          "161W"
+        ],
+        "price": "$489.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-steely-d-c3": {
+        "name": "lib-tech-steely-d-c3",
+        "link": "https://evo.com/snowboards/lib-tech-steely-d-c3-snowboard",
+        "sizes": [
+          "167"
+        ],
+        "price": "$489.99 Sale",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-t-rice-apex-orca": {
+        "name": "lib-tech-t-rice-apex-orca",
+        "link": "https://evo.com/snowboards/lib-tech-t-rice-apex-orca-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$1,299.99",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-t-rice-golden-orca": {
+        "name": "lib-tech-t-rice-golden-orca",
+        "link": "https://evo.com/snowboards/lib-tech-t-rice-golden-orca-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "157",
+          "161"
+        ],
+        "price": "$849.99",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-t-rice-orca": {
+        "name": "lib-tech-t-rice-orca",
+        "link": "https://evo.com/snowboards/lib-tech-t-rice-orca-snowboard",
+        "sizes": [
+          "138",
+          "144",
+          "147",
+          "150",
+          "153",
+          "156",
+          "159",
+          "162"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-t-rice-pro-camber": {
+        "name": "lib-tech-t-rice-pro-camber",
+        "link": "https://evo.com/snowboards/lib-tech-t-rice-pro-camber-snowboard",
+        "sizes": [
+          "157",
+          "159"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-t-rice-pro": {
+        "name": "lib-tech-t-rice-pro",
+        "link": "https://evo.com/snowboards/lib-tech-t-rice-pro-snowboard",
+        "sizes": [
+          "153",
+          "155",
+          "157",
+          "157W",
+          "159",
+          "161",
+          "161W",
+          "164"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-trice-pro-hp-c2": {
+        "name": "lib-tech-trice-pro-hp-c2",
+        "link": "https://evo.com/snowboards/lib-tech-trice-pro-hp-c2-snowboard",
+        "sizes": [
+          "153",
+          "155"
+        ],
+        "price": "$489.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-trs-c3-2024": {
+        "name": "lib-tech-trs-c3-2024",
+        "link": "https://evo.com/snowboards/lib-tech-trs-c3-snowboard-2024",
+        "sizes": [
+          "154",
+          "157W"
+        ],
+        "price": "$489.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-trs-c3": {
+        "name": "lib-tech-trs-c3",
+        "link": "https://evo.com/snowboards/lib-tech-trs-c3-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "157W",
+          "159",
+          "159W",
+          "162"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "lib-tech-terrain-wrecker-c2x": {
+        "name": "lib-tech-terrain-wrecker-c2x",
+        "link": "https://evo.com/snowboards/lib-tech-terrain-wrecker-c2x-snowboard",
+        "sizes": [
+          "152",
+          "154",
+          "156W",
+          "157",
+          "160",
+          "161W"
+        ],
+        "price": "$599.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "moss-snowstick": [
+    {
+      "moss-snowstick-wing-pin-54": {
+        "name": "moss-snowstick-wing-pin-54",
+        "link": "https://evo.com/snowboards/moss-snowstick-wing-pin-54-snowboard",
+        "sizes": [
+          "154"
+        ],
+        "price": "$1,140.00",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "moss-snowstick-wing-swallow-57": {
+        "name": "moss-snowstick-wing-swallow-57",
+        "link": "https://evo.com/snowboards/moss-snowstick-wing-swallow-57-snowboard",
+        "sizes": [
+          "157"
+        ],
+        "price": "$1,160.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "never-summer": [
+    {
+      "never-summer-cougar-x": {
+        "name": "never-summer-cougar-x",
+        "link": "https://evo.com/snowboards/never-summer-cougar-x-snowboard",
+        "sizes": [
+          "161W"
+        ],
+        "price": "$649.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-easy-rider": {
+        "name": "never-summer-easy-rider",
+        "link": "https://evo.com/snowboards/never-summer-easy-rider-snowboard",
+        "sizes": [
+          "148"
+        ],
+        "price": "$689.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-easy-rider-x": {
+        "name": "never-summer-easy-rider-x",
+        "link": "https://evo.com/snowboards/never-summer-easy-rider-x-snowboard",
+        "sizes": [
+          "158W"
+        ],
+        "price": "$689.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-harpoon": {
+        "name": "never-summer-harpoon",
+        "link": "https://evo.com/snowboards/never-summer-harpoon-snowboard",
+        "sizes": [
+          "152"
+        ],
+        "price": "$649.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-nokhu": {
+        "name": "never-summer-nokhu",
+        "link": "https://evo.com/snowboards/never-summer-nokhu-snowboard",
+        "sizes": [
+          "152",
+          "161"
+        ],
+        "price": "$689.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-proto-fr": {
+        "name": "never-summer-proto-fr",
+        "link": "https://evo.com/snowboards/never-summer-proto-fr-snowboard",
+        "sizes": [
+          "156",
+          "160"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-proto-slinger": {
+        "name": "never-summer-proto-slinger",
+        "link": "https://evo.com/snowboards/never-summer-proto-slinger-snowboard",
+        "sizes": [
+          "149",
+          "153",
+          "156"
+        ],
+        "price": "$649.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-proto-slinger-x": {
+        "name": "never-summer-proto-slinger-x",
+        "link": "https://evo.com/snowboards/never-summer-proto-slinger-x-snowboard",
+        "sizes": [
+          "154W"
+        ],
+        "price": "$649.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-proto-synthesis": {
+        "name": "never-summer-proto-synthesis",
+        "link": "https://evo.com/snowboards/never-summer-proto-synthesis-snowboard",
+        "sizes": [
+          "152",
+          "155"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-proto-ultra": {
+        "name": "never-summer-proto-ultra",
+        "link": "https://evo.com/snowboards/never-summer-proto-ultra-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "160",
+          "163"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-shapeshifter": {
+        "name": "never-summer-shapeshifter",
+        "link": "https://evo.com/snowboards/never-summer-shapeshifter-snowboard",
+        "sizes": [
+          "153",
+          "156"
+        ],
+        "price": "$649.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-snowtrooper": {
+        "name": "never-summer-snowtrooper",
+        "link": "https://evo.com/snowboards/never-summer-snowtrooper-snowboard",
+        "sizes": [
+          "152",
+          "156"
+        ],
+        "price": "$629.99",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-swift": {
+        "name": "never-summer-swift",
+        "link": "https://evo.com/snowboards/never-summer-swift-snowboard",
+        "sizes": [
+          "153",
+          "158",
+          "163"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-v-twin": {
+        "name": "never-summer-v-twin",
+        "link": "https://evo.com/snowboards/never-summer-v-twin-snowboard",
+        "sizes": [
+          "153",
+          "157"
+        ],
+        "price": "$699.99",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "never-summer-valhalla": {
+        "name": "never-summer-valhalla",
+        "link": "https://evo.com/snowboards/never-summer-valhalla-snowboard",
+        "sizes": [
+          "147",
+          "153",
+          "156"
+        ],
+        "price": "$699.99",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Cam/Rock/Cam/Rock/Cam",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "nidecker": [
+    {
+      "nidecker-beta-apx": {
+        "name": "nidecker-beta-apx",
+        "link": "https://evo.com/snowboards/nidecker-beta-apx-snowboard",
+        "sizes": [
+          "162"
+        ],
+        "price": "$579.95",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-escape-plus": {
+        "name": "nidecker-escape-plus",
+        "link": "https://evo.com/snowboards/nidecker-escape-plus-snowboard",
+        "sizes": [
+          "159",
+          "159W",
+          "162W",
+          "165W"
+        ],
+        "price": "$529.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-escape": {
+        "name": "nidecker-escape",
+        "link": "https://evo.com/snowboards/nidecker-escape-snowboard",
+        "sizes": [
+          "152",
+          "156",
+          "159",
+          "162W",
+          "162Xw",
+          "165W"
+        ],
+        "price": "$479.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-gamma-apx": {
+        "name": "nidecker-gamma-apx",
+        "link": "https://evo.com/snowboards/nidecker-gamma-apx-snowboard",
+        "sizes": [
+          "153",
+          "157",
+          "159W"
+        ],
+        "price": "$579.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-mellow": {
+        "name": "nidecker-mellow",
+        "link": "https://evo.com/snowboards/nidecker-mellow-snowboard",
+        "sizes": [
+          "152",
+          "157"
+        ],
+        "price": "$519.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-merc": {
+        "name": "nidecker-merc",
+        "link": "https://evo.com/snowboards/nidecker-merc-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "156",
+          "156W",
+          "159W",
+          "162W",
+          "165W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-play": {
+        "name": "nidecker-play",
+        "link": "https://evo.com/snowboards/nidecker-play-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "156",
+          "156W",
+          "159"
+        ],
+        "price": "$349.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-score": {
+        "name": "nidecker-score",
+        "link": "https://evo.com/snowboards/nidecker-score-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "156",
+          "156W",
+          "159",
+          "159W",
+          "162W",
+          "165W"
+        ],
+        "price": "$399.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-sensor-pro": {
+        "name": "nidecker-sensor-pro",
+        "link": "https://evo.com/snowboards/nidecker-sensor-pro-snowboard",
+        "sizes": [
+          "154",
+          "158",
+          "162"
+        ],
+        "price": "$579.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-sensor": {
+        "name": "nidecker-sensor",
+        "link": "https://evo.com/snowboards/nidecker-sensor-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "153",
+          "156",
+          "159W"
+        ],
+        "price": "$449.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-sensor-team": {
+        "name": "nidecker-sensor-team",
+        "link": "https://evo.com/snowboards/nidecker-sensor-team-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nidecker-thruster": {
+        "name": "nidecker-thruster",
+        "link": "https://evo.com/snowboards/nidecker-thruster-snowboard",
+        "sizes": [
+          "147",
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "nitro": [
+    {
+      "nitro-alternator": {
+        "name": "nitro-alternator",
+        "link": "https://evo.com/snowboards/nitro-alternator-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "160",
+          "162W"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-alternator-x-volcom": {
+        "name": "nitro-alternator-x-volcom",
+        "link": "https://evo.com/snowboards/nitro-alternator-x-volcom-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "160",
+          "162W"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-banker": {
+        "name": "nitro-banker",
+        "link": "https://evo.com/snowboards/nitro-banker-snowboard",
+        "sizes": [
+          "156",
+          "159"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-basher": {
+        "name": "nitro-basher",
+        "link": "https://evo.com/snowboards/nitro-basher-snowboard",
+        "sizes": [
+          "158"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-beast": {
+        "name": "nitro-beast",
+        "link": "https://evo.com/snowboards/nitro-beast-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "158"
+        ],
+        "price": "$689.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-cheap-thrills": {
+        "name": "nitro-cheap-thrills",
+        "link": "https://evo.com/snowboards/nitro-cheap-thrills-snowboard",
+        "sizes": [
+          "148",
+          "152",
+          "155",
+          "155W",
+          "157"
+        ],
+        "price": "$459.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-cinema": {
+        "name": "nitro-cinema",
+        "link": "https://evo.com/snowboards/nitro-cinema-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "159",
+          "162W"
+        ],
+        "price": "$459.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-dinghy": {
+        "name": "nitro-dinghy",
+        "link": "https://evo.com/snowboards/nitro-dinghy-snowboard",
+        "sizes": [
+          "160"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-optisym": {
+        "name": "nitro-optisym",
+        "link": "https://evo.com/snowboards/nitro-optisym-snowboard",
+        "sizes": [
+          "146",
+          "149",
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Asymmetrical",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-pow": {
+        "name": "nitro-pow",
+        "link": "https://evo.com/snowboards/nitro-pow-snowboard",
+        "sizes": [
+          "157"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-prime-chroma-cam-out": {
+        "name": "nitro-prime-chroma-cam-out",
+        "link": "https://evo.com/snowboards/nitro-prime-chroma-cam-out-snowboard",
+        "sizes": [
+          "149"
+        ],
+        "price": "$349.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-prime-raw": {
+        "name": "nitro-prime-raw",
+        "link": "https://evo.com/snowboards/nitro-prime-raw-snowboard",
+        "sizes": [
+          "152",
+          "156W",
+          "158"
+        ],
+        "price": "$349.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-santoku": {
+        "name": "nitro-santoku",
+        "link": "https://evo.com/snowboards/nitro-santoku-snowboard",
+        "sizes": [
+          "156",
+          "159",
+          "162"
+        ],
+        "price": "$669.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-slash": {
+        "name": "nitro-slash",
+        "link": "https://evo.com/snowboards/nitro-slash-snowboard",
+        "sizes": [
+          "151",
+          "156",
+          "162"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-squash": {
+        "name": "nitro-squash",
+        "link": "https://evo.com/snowboards/nitro-squash-snowboard",
+        "sizes": [
+          "156",
+          "159",
+          "163"
+        ],
+        "price": "$609.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-t1": {
+        "name": "nitro-t1",
+        "link": "https://evo.com/snowboards/nitro-t1-snowboard",
+        "sizes": [
+          "155"
+        ],
+        "price": "$529.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-team-pro": {
+        "name": "nitro-team-pro",
+        "link": "https://evo.com/snowboards/nitro-team-pro-snowboard",
+        "sizes": [
+          "146",
+          "149",
+          "152",
+          "155",
+          "157",
+          "157W",
+          "159",
+          "162",
+          "165W"
+        ],
+        "price": "$629.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-team-pro-x-marcus-kleveland": {
+        "name": "nitro-team-pro-x-marcus-kleveland",
+        "link": "https://evo.com/snowboards/nitro-team-pro-x-marcus-kleveland-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "157",
+          "159"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "nitro-team": {
+        "name": "nitro-team",
+        "link": "https://evo.com/snowboards/nitro-team-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "157W",
+          "159",
+          "159W"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "public-snowboards": [
+    {
+      "public-display": {
+        "name": "public-display",
+        "link": "https://evo.com/snowboards/public-display-snowboard",
+        "sizes": [
+          "150",
+          "156"
+        ],
+        "price": "$500.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "public-dispute": {
+        "name": "public-dispute",
+        "link": "https://evo.com/snowboards/public-dispute-snowboard",
+        "sizes": [
+          "147",
+          "156",
+          "159"
+        ],
+        "price": "$530.00",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "public-general": {
+        "name": "public-general",
+        "link": "https://evo.com/snowboards/public-general-snowboard",
+        "sizes": [
+          "140",
+          "147",
+          "150",
+          "153",
+          "154W",
+          "155"
+        ],
+        "price": "$430.00",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "public-research": {
+        "name": "public-research",
+        "link": "https://evo.com/snowboards/public-research-snowboard",
+        "sizes": [
+          "154",
+          "157",
+          "160"
+        ],
+        "price": "$550.00",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "public-statement": {
+        "name": "public-statement",
+        "link": "https://evo.com/snowboards/public-statement-snowboard",
+        "sizes": [
+          "154"
+        ],
+        "price": "$480.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "ride": [
+    {
+      "ride-agenda": {
+        "name": "ride-agenda",
+        "link": "https://evo.com/snowboards/ride-agenda-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "154W",
+          "155",
+          "157W",
+          "161W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-algorhythm": {
+        "name": "ride-algorhythm",
+        "link": "https://evo.com/snowboards/ride-algorhythm-snowboard",
+        "sizes": [
+          "154",
+          "155W"
+        ],
+        "price": "$440.96 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-algorythm": {
+        "name": "ride-algorythm",
+        "link": "https://evo.com/snowboards/ride-algorythm-snowboard",
+        "sizes": [
+          "147",
+          "151",
+          "154",
+          "155W",
+          "157",
+          "160W",
+          "161",
+          "164W"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-berzerker": {
+        "name": "ride-berzerker",
+        "link": "https://evo.com/snowboards/ride-berzerker-snowboard",
+        "sizes": [
+          "156",
+          "157W",
+          "159",
+          "160W",
+          "162",
+          "163W",
+          "165"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-burnout": {
+        "name": "ride-burnout",
+        "link": "https://evo.com/snowboards/ride-burnout-snowboard",
+        "sizes": [
+          "152",
+          "154W",
+          "155",
+          "157W",
+          "158"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-deep-fake-2024": {
+        "name": "ride-deep-fake-2024",
+        "link": "https://evo.com/snowboards/ride-deep-fake-snowboard-2024",
+        "sizes": [
+          "144",
+          "148"
+        ],
+        "price": "$399.99 Sale"
+      }
+    },
+    {
+      "ride-deep-fake": {
+        "name": "ride-deep-fake",
+        "link": "https://evo.com/snowboards/ride-deep-fake-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "151",
+          "155",
+          "157",
+          "157W",
+          "159",
+          "161W",
+          "162",
+          "165W"
+        ],
+        "price": "$699.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-kink": {
+        "name": "ride-kink",
+        "link": "https://evo.com/snowboards/ride-kink-snowboard",
+        "sizes": [
+          "147",
+          "151",
+          "154W",
+          "155",
+          "157W",
+          "158"
+        ],
+        "price": "$459.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-mtnpig-2024": {
+        "name": "ride-mtnpig-2024",
+        "link": "https://evo.com/snowboards/ride-mtnpig-snowboard-2024",
+        "sizes": [
+          "155"
+        ],
+        "price": "$409.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-mtnpig": {
+        "name": "ride-mtnpig",
+        "link": "https://evo.com/snowboards/ride-mtnpig-snowboard",
+        "sizes": [
+          "151",
+          "155",
+          "159",
+          "160W",
+          "162"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-manic": {
+        "name": "ride-manic",
+        "link": "https://evo.com/snowboards/ride-manic-snowboard",
+        "sizes": [
+          "151",
+          "157",
+          "158W",
+          "160",
+          "161W",
+          "163"
+        ],
+        "price": "$449.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-moderator": {
+        "name": "ride-moderator",
+        "link": "https://evo.com/snowboards/ride-moderator-snowboard",
+        "sizes": [
+          "144",
+          "148",
+          "151",
+          "155",
+          "157",
+          "157W",
+          "159",
+          "161W",
+          "162",
+          "165W"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-peace-seeker": {
+        "name": "ride-peace-seeker",
+        "link": "https://evo.com/snowboards/ride-peace-seeker-snowboard",
+        "sizes": [
+          "138",
+          "142",
+          "147",
+          "151",
+          "151W",
+          "155",
+          "155W"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-psychocandy-2024": {
+        "name": "ride-psychocandy-2024",
+        "link": "https://evo.com/snowboards/ride-psychocandy-snowboard-2024",
+        "sizes": [
+          "138"
+        ],
+        "price": "$319.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-psychocandy": {
+        "name": "ride-psychocandy",
+        "link": "https://evo.com/snowboards/ride-psychocandy-snowboard",
+        "sizes": [
+          "138",
+          "142",
+          "146",
+          "150",
+          "154",
+          "158"
+        ],
+        "price": "$539.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-shadowban": {
+        "name": "ride-shadowban",
+        "link": "https://evo.com/snowboards/ride-shadowban-snowboard",
+        "sizes": [
+          "147",
+          "151",
+          "154",
+          "155W",
+          "157",
+          "160W",
+          "161",
+          "164W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-smokescreen": {
+        "name": "ride-smokescreen",
+        "link": "https://evo.com/snowboards/ride-smokescreen-snowboard",
+        "sizes": [
+          "155",
+          "157W",
+          "158",
+          "162"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-superpig-2024": {
+        "name": "ride-superpig-2024",
+        "link": "https://evo.com/snowboards/ride-superpig-snowboard-2024",
+        "sizes": [
+          "142"
+        ],
+        "price": "$419.96 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-superpig": {
+        "name": "ride-superpig",
+        "link": "https://evo.com/snowboards/ride-superpig-snowboard",
+        "sizes": [
+          "142",
+          "148",
+          "151",
+          "154",
+          "158"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-twinpig-2024": {
+        "name": "ride-twinpig-2024",
+        "link": "https://evo.com/snowboards/ride-twinpig-snowboard-2024",
+        "sizes": [
+          "136"
+        ],
+        "price": "$370.96 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-twinpig": {
+        "name": "ride-twinpig",
+        "link": "https://evo.com/snowboards/ride-twinpig-snowboard",
+        "sizes": [
+          "142",
+          "148",
+          "151",
+          "154",
+          "156W",
+          "157"
+        ],
+        "price": "$529.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-warpig": {
+        "name": "ride-warpig",
+        "link": "https://evo.com/snowboards/ride-warpig-snowboard",
+        "sizes": [
+          "142",
+          "148",
+          "151",
+          "154",
+          "158"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-zero": {
+        "name": "ride-zero",
+        "link": "https://evo.com/snowboards/ride-zero-snowboard",
+        "sizes": [
+          "147",
+          "151",
+          "154W",
+          "155",
+          "157W",
+          "159",
+          "161W"
+        ],
+        "price": "$529.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-x-trevor-andrew-psychocandy": {
+        "name": "ride-x-trevor-andrew-psychocandy",
+        "link": "https://evo.com/snowboards/ride-x-trevor-andrew-psychocandy-snowboard",
+        "sizes": [
+          "146",
+          "150",
+          "154"
+        ],
+        "price": "$539.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "ride-x-trevor-andrew-zero": {
+        "name": "ride-x-trevor-andrew-zero",
+        "link": "https://evo.com/snowboards/ride-x-trevor-andrew-zero-snowboard",
+        "sizes": [
+          "157W"
+        ],
+        "price": "$529.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Asymmetrical, True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "rome": [
+    {
+      "rome-agent-pro": {
+        "name": "rome-agent-pro",
+        "link": "https://evo.com/snowboards/rome-agent-pro-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "154",
+          "155W",
+          "157",
+          "158W",
+          "160",
+          "161W"
+        ],
+        "price": "$579.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-agent": {
+        "name": "rome-agent",
+        "link": "https://evo.com/snowboards/rome-agent-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "154",
+          "155W",
+          "157",
+          "158W",
+          "160"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-artifact-pro": {
+        "name": "rome-artifact-pro",
+        "link": "https://evo.com/snowboards/rome-artifact-pro-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "152W",
+          "153",
+          "155W",
+          "156",
+          "158W",
+          "159"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-artifact": {
+        "name": "rome-artifact",
+        "link": "https://evo.com/snowboards/rome-artifact-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "152W",
+          "153",
+          "155W"
+        ],
+        "price": "$449.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-mechanic": {
+        "name": "rome-mechanic",
+        "link": "https://evo.com/snowboards/rome-mechanic-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "153",
+          "154W",
+          "156"
+        ],
+        "price": "$399.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-party-mod": {
+        "name": "rome-party-mod",
+        "link": "https://evo.com/snowboards/rome-party-mod-snowboard",
+        "sizes": [
+          "153"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-ravine-pro": {
+        "name": "rome-ravine-pro",
+        "link": "https://evo.com/snowboards/rome-ravine-pro-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "158",
+          "162",
+          "166"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-service-dog": {
+        "name": "rome-service-dog",
+        "link": "https://evo.com/snowboards/rome-service-dog-snowboard",
+        "sizes": [
+          "148",
+          "153",
+          "157"
+        ],
+        "price": "$449.95",
+        "Terrain:": "Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-stale-crewzer": {
+        "name": "rome-stale-crewzer",
+        "link": "https://evo.com/snowboards/rome-stale-crewzer-snowboard",
+        "sizes": [
+          "155",
+          "158",
+          "161",
+          "162W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-stale-fish": {
+        "name": "rome-stale-fish",
+        "link": "https://evo.com/snowboards/rome-stale-fish-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "157",
+          "160"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rome-warden": {
+        "name": "rome-warden",
+        "link": "https://evo.com/snowboards/rome-warden-snowboard",
+        "sizes": [
+          "152",
+          "158",
+          "159W",
+          "161",
+          "162W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "rossignol": [
+    {
+      "rossignol-evader": {
+        "name": "rossignol-evader",
+        "link": "https://evo.com/snowboards/rossignol-evader-snowboard",
+        "sizes": [
+          "154",
+          "159",
+          "160W",
+          "164",
+          "165W"
+        ],
+        "price": "$399.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-jibsaw": {
+        "name": "rossignol-jibsaw",
+        "link": "https://evo.com/snowboards/rossignol-jibsaw-snowboard",
+        "sizes": [
+          "153",
+          "155",
+          "157",
+          "159"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-juggernaut": {
+        "name": "rossignol-juggernaut",
+        "link": "https://evo.com/snowboards/rossignol-juggernaut-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "158",
+          "158W",
+          "161W",
+          "162"
+        ],
+        "price": "$649.95",
+        "Terrain:": "Freestyle, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-one-2024": {
+        "name": "rossignol-one-2024",
+        "link": "https://evo.com/snowboards/rossignol-one-snowboard-2024",
+        "sizes": [
+          "153",
+          "159"
+        ],
+        "price": "$399.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-one": {
+        "name": "rossignol-one",
+        "link": "https://evo.com/snowboards/rossignol-one-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "157W",
+          "159"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-resurgence-2022": {
+        "name": "rossignol-resurgence-2022",
+        "link": "https://evo.com/snowboards/rossignol-resurgence-snowboard-2022",
+        "sizes": [
+          "155W",
+          "156"
+        ],
+        "price": "$299.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-resurgence": {
+        "name": "rossignol-resurgence",
+        "link": "https://evo.com/snowboards/rossignol-resurgence-snowboard",
+        "sizes": [
+          "153",
+          "155W",
+          "156",
+          "159",
+          "163W"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-retox": {
+        "name": "rossignol-retox",
+        "link": "https://evo.com/snowboards/rossignol-retox-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "153"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-revenant-2024": {
+        "name": "rossignol-revenant-2024",
+        "link": "https://evo.com/snowboards/rossignol-revenant-snowboard-2024",
+        "sizes": [
+          "154",
+          "158",
+          "162"
+        ],
+        "price": "$389.97 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-revenant": {
+        "name": "rossignol-revenant",
+        "link": "https://evo.com/snowboards/rossignol-revenant-snowboard",
+        "sizes": [
+          "158",
+          "162"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-sawblade": {
+        "name": "rossignol-sawblade",
+        "link": "https://evo.com/snowboards/rossignol-sawblade-snowboard",
+        "sizes": [
+          "150",
+          "155",
+          "155W"
+        ],
+        "price": "$449.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-xv-slashimi": {
+        "name": "rossignol-xv-slashimi",
+        "link": "https://evo.com/snowboards/rossignol-xv-slashimi-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "158",
+          "161"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-xv-2023": {
+        "name": "rossignol-xv-2023",
+        "link": "https://evo.com/snowboards/rossignol-xv-snowboard-2023",
+        "sizes": [
+          "156",
+          "159",
+          "161W",
+          "162",
+          "165W",
+          "167",
+          "169W"
+        ],
+        "price": "$429.99 Sale",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "rossignol-xv": {
+        "name": "rossignol-xv",
+        "link": "https://evo.com/snowboards/rossignol-xv-snowboard",
+        "sizes": [
+          "156",
+          "159",
+          "161W",
+          "162",
+          "165W",
+          "167",
+          "169W"
+        ],
+        "price": "$749.95",
+        "Terrain:": "Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "salomon": [
+    {
+      "salomon-abstract": {
+        "name": "salomon-abstract",
+        "link": "https://evo.com/snowboards/salomon-abstract-snowboard",
+        "sizes": [
+          "138",
+          "143",
+          "147",
+          "151",
+          "153",
+          "155",
+          "155W",
+          "158",
+          "158W",
+          "162"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-assassin-pro": {
+        "name": "salomon-assassin-pro",
+        "link": "https://evo.com/snowboards/salomon-assassin-pro-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "156",
+          "158W",
+          "159",
+          "162",
+          "163W"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-assassin": {
+        "name": "salomon-assassin",
+        "link": "https://evo.com/snowboards/salomon-assassin-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "156",
+          "158W",
+          "159",
+          "162",
+          "163W",
+          "165"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-craft": {
+        "name": "salomon-craft",
+        "link": "https://evo.com/snowboards/salomon-craft-snowboard",
+        "sizes": [
+          "150",
+          "153",
+          "155",
+          "157W",
+          "158",
+          "160W",
+          "162W"
+        ],
+        "price": "$449.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-dancehaul-grom": {
+        "name": "salomon-dancehaul-grom",
+        "link": "https://evo.com/snowboards/salomon-dancehaul-grom-snowboard",
+        "sizes": [
+          "125",
+          "135"
+        ],
+        "price": "$339.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-dancehaul-pro": {
+        "name": "salomon-dancehaul-pro",
+        "link": "https://evo.com/snowboards/salomon-dancehaul-pro-snowboard",
+        "sizes": [
+          "143",
+          "147",
+          "152",
+          "154",
+          "157"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-dancehaul": {
+        "name": "salomon-dancehaul",
+        "link": "https://evo.com/snowboards/salomon-dancehaul-snowboard",
+        "sizes": [
+          "143",
+          "147",
+          "152",
+          "154",
+          "157"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-hps-louif-paradis": {
+        "name": "salomon-hps-louif-paradis",
+        "link": "https://evo.com/snowboards/salomon-hps-louif-paradis-snowboard",
+        "sizes": [
+          "155",
+          "159",
+          "163"
+        ],
+        "price": "$669.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-hps-sickstick": {
+        "name": "salomon-hps-sickstick",
+        "link": "https://evo.com/snowboards/salomon-hps-sickstick-snowboard",
+        "sizes": [
+          "145",
+          "153",
+          "159"
+        ],
+        "price": "$669.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-highpath": {
+        "name": "salomon-highpath",
+        "link": "https://evo.com/snowboards/salomon-highpath-snowboard",
+        "sizes": [
+          "146",
+          "150",
+          "153",
+          "156",
+          "159",
+          "159W",
+          "162",
+          "162W"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-huck-knife-pro": {
+        "name": "salomon-huck-knife-pro",
+        "link": "https://evo.com/snowboards/salomon-huck-knife-pro-snowboard",
+        "sizes": [
+          "149",
+          "153",
+          "156",
+          "156W",
+          "159",
+          "159W"
+        ],
+        "price": "$629.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Very Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-huck-knife": {
+        "name": "salomon-huck-knife",
+        "link": "https://evo.com/snowboards/salomon-huck-knife-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "156W",
+          "159",
+          "159W",
+          "162"
+        ],
+        "price": "$529.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-pulse": {
+        "name": "salomon-pulse",
+        "link": "https://evo.com/snowboards/salomon-pulse-snowboard",
+        "sizes": [
+          "142",
+          "145",
+          "149",
+          "152",
+          "156",
+          "158W",
+          "160",
+          "162W",
+          "163"
+        ],
+        "price": "$369.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Flat/Camber/Flat",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-sight": {
+        "name": "salomon-sight",
+        "link": "https://evo.com/snowboards/salomon-sight-snowboard",
+        "sizes": [
+          "147",
+          "150",
+          "153",
+          "155W",
+          "156",
+          "158W",
+          "159",
+          "162W",
+          "166W"
+        ],
+        "price": "$419.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-sight-x": {
+        "name": "salomon-sight-x",
+        "link": "https://evo.com/snowboards/salomon-sight-x-snowboard",
+        "sizes": [
+          "156"
+        ],
+        "price": "$377.96 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-sleepwalker": {
+        "name": "salomon-sleepwalker",
+        "link": "https://evo.com/snowboards/salomon-sleepwalker-snowboard",
+        "sizes": [
+          "148",
+          "151",
+          "153",
+          "155",
+          "155W",
+          "158",
+          "158W"
+        ],
+        "price": "$419.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-super-8-pro": {
+        "name": "salomon-super-8-pro",
+        "link": "https://evo.com/snowboards/salomon-super-8-pro-snowboard",
+        "sizes": [
+          "157",
+          "163"
+        ],
+        "price": "$649.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "salomon-super-8": {
+        "name": "salomon-super-8",
+        "link": "https://evo.com/snowboards/salomon-super-8-snowboard",
+        "sizes": [
+          "151",
+          "154",
+          "157",
+          "160",
+          "163"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain, Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "season": [
+    {
+      "season-aero": {
+        "name": "season-aero",
+        "link": "https://evo.com/snowboards/season-aero-snowboard",
+        "sizes": [
+          "145",
+          "147",
+          "151",
+          "154",
+          "157",
+          "160",
+          "163"
+        ],
+        "price": "$399.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "season-forma": {
+        "name": "season-forma",
+        "link": "https://evo.com/snowboards/season-forma-snowboard",
+        "sizes": [
+          "153",
+          "159"
+        ],
+        "price": "$699.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "season-kin": {
+        "name": "season-kin",
+        "link": "https://evo.com/snowboards/season-kin-snowboard",
+        "sizes": [
+          "142",
+          "147",
+          "152",
+          "156",
+          "158",
+          "161"
+        ],
+        "price": "$499.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "season-nexus": {
+        "name": "season-nexus",
+        "link": "https://evo.com/snowboards/season-nexus-snowboard",
+        "sizes": [
+          "143",
+          "148",
+          "152",
+          "155",
+          "158",
+          "159w",
+          "161",
+          "162w",
+          "164"
+        ],
+        "price": "$549.00",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "season-primer": {
+        "name": "season-primer",
+        "link": "https://evo.com/snowboards/season-primer-snowboard",
+        "sizes": [
+          "142",
+          "147",
+          "152",
+          "155w",
+          "156",
+          "158",
+          "159w",
+          "161",
+          "162w",
+          "166w"
+        ],
+        "price": "$449.00",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "sims": [
+    {
+      "sims-atv-pro": {
+        "name": "sims-atv-pro",
+        "link": "https://evo.com/snowboards/sims-atv-pro-snowboard",
+        "sizes": [
+          "139",
+          "143",
+          "144W",
+          "147",
+          "148W",
+          "151W",
+          "155",
+          "159W",
+          "161W"
+        ],
+        "price": "$344.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-atv": {
+        "name": "sims-atv",
+        "link": "https://evo.com/snowboards/sims-atv-snowboard",
+        "sizes": [
+          "152.5",
+          "158"
+        ],
+        "price": "$374.50 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-distortion-2024": {
+        "name": "sims-distortion-2024",
+        "link": "https://evo.com/snowboards/sims-distortion-snowboard-2024",
+        "sizes": [
+          "152",
+          "155",
+          "158"
+        ],
+        "price": "$329.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-distortion": {
+        "name": "sims-distortion",
+        "link": "https://evo.com/snowboards/sims-distortion-snowboard",
+        "sizes": [
+          "152",
+          "155"
+        ],
+        "price": "$520.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-fakie": {
+        "name": "sims-fakie",
+        "link": "https://evo.com/snowboards/sims-fakie-snowboard",
+        "sizes": [
+          "153",
+          "157",
+          "161"
+        ],
+        "price": "$650.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-macrodose-2024": {
+        "name": "sims-macrodose-2024",
+        "link": "https://evo.com/snowboards/sims-macrodose-snowboard-2024",
+        "sizes": [
+          "146",
+          "150",
+          "154"
+        ],
+        "price": "$359.99 Sale",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-macrodose": {
+        "name": "sims-macrodose",
+        "link": "https://evo.com/snowboards/sims-macrodose-snowboard",
+        "sizes": [
+          "150",
+          "154",
+          "158"
+        ],
+        "price": "$570.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-nub": {
+        "name": "sims-nub",
+        "link": "https://evo.com/snowboards/sims-nub-snowboard",
+        "sizes": [
+          "145.5",
+          "148.5",
+          "156.5"
+        ],
+        "price": "$444.50 Sale",
+        "Terrain:": "Freestyle, All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-solo": {
+        "name": "sims-solo",
+        "link": "https://evo.com/snowboards/sims-solo-snowboard",
+        "sizes": [
+          "156",
+          "159"
+        ],
+        "price": "$429.99 Sale",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-uap": {
+        "name": "sims-uap",
+        "link": "https://evo.com/snowboards/sims-uap-snowboard",
+        "sizes": [
+          "150",
+          "156",
+          "159",
+          "162"
+        ],
+        "price": "$389.99 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-undertaker": {
+        "name": "sims-undertaker",
+        "link": "https://evo.com/snowboards/sims-undertaker-snowboard",
+        "sizes": [
+          "157",
+          "160"
+        ],
+        "price": "$359.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber/Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "sims-x-evo-uap": {
+        "name": "sims-x-evo-uap",
+        "link": "https://evo.com/snowboards/sims-x-evo-uap-snowboard",
+        "sizes": [
+          "153"
+        ],
+        "price": "$427.00 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "united-shapes": [
+    {
+      "united-shapes-deep-reach": {
+        "name": "united-shapes-deep-reach",
+        "link": "https://evo.com/snowboards/united-shapes-deep-reach-snowboard",
+        "sizes": [
+          "149",
+          "153",
+          "156",
+          "162"
+        ],
+        "price": "$699.00",
+        "Terrain:": "Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "united-shapes-experiment": {
+        "name": "united-shapes-experiment",
+        "link": "https://evo.com/snowboards/united-shapes-experiment-snowboard",
+        "sizes": [
+          "148"
+        ],
+        "price": "$749.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Flat",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "united-shapes-horizon": {
+        "name": "united-shapes-horizon",
+        "link": "https://evo.com/snowboards/united-shapes-horizon-snowboard",
+        "sizes": [
+          "143",
+          "147"
+        ],
+        "price": "$699.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "united-shapes-object": {
+        "name": "united-shapes-object",
+        "link": "https://evo.com/snowboards/united-shapes-object-snowboard",
+        "sizes": [
+          "152"
+        ],
+        "price": "$549.00",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "united-shapes-transmission": {
+        "name": "united-shapes-transmission",
+        "link": "https://evo.com/snowboards/united-shapes-transmission-snowboard",
+        "sizes": [
+          "154",
+          "159"
+        ],
+        "price": "$699.00",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "weston": [
+    {
+      "weston-backwoods-2023": {
+        "name": "weston-backwoods-2023",
+        "link": "https://evo.com/snowboards/weston-backwoods-snowboard-2023",
+        "sizes": [
+          "152"
+        ],
+        "price": "$624.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "weston-backwoods": {
+        "name": "weston-backwoods",
+        "link": "https://evo.com/snowboards/weston-backwoods-snowboard",
+        "sizes": [
+          "157",
+          "160",
+          "160W",
+          "163",
+          "163W",
+          "167W"
+        ],
+        "price": "$624.00",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "weston-hatchet": {
+        "name": "weston-hatchet",
+        "link": "https://evo.com/snowboards/weston-hatchet-snowboard",
+        "sizes": [
+          "152"
+        ],
+        "price": "$674.00",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "weston-japow": {
+        "name": "weston-japow",
+        "link": "https://evo.com/snowboards/weston-japow-snowboard",
+        "sizes": [
+          "154"
+        ],
+        "price": "$624.00",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber",
+        "Shape:": "Directional",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ],
+  "yes": [
+    {
+      "yes-420": {
+        "name": "yes-420",
+        "link": "https://evo.com/snowboards/yes-420-snowboard",
+        "sizes": [
+          "141",
+          "145"
+        ],
+        "price": "$467.46 Sale",
+        "Terrain:": "Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-airmaster": {
+        "name": "yes-airmaster",
+        "link": "https://evo.com/snowboards/yes-airmaster-snowboard",
+        "sizes": [
+          "154",
+          "156"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-all-in-2024": {
+        "name": "yes-all-in-2024",
+        "link": "https://evo.com/snowboards/yes-all-in-snowboard-2024",
+        "sizes": [
+          "162"
+        ],
+        "price": "$344.99 Sale",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-all-in": {
+        "name": "yes-all-in",
+        "link": "https://evo.com/snowboards/yes-all-in-snowboard",
+        "sizes": [
+          "148",
+          "150",
+          "154",
+          "158"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Beginner-Intermediate",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-all-out": {
+        "name": "yes-all-out",
+        "link": "https://evo.com/snowboards/yes-all-out-snowboard",
+        "sizes": [
+          "148",
+          "150",
+          "154",
+          "155W",
+          "158",
+          "160W",
+          "162",
+          "164W"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-basic": {
+        "name": "yes-basic",
+        "link": "https://evo.com/snowboards/yes-basic-snowboard",
+        "sizes": [
+          "146",
+          "149",
+          "153W",
+          "156W"
+        ],
+        "price": "$429.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-basic-uninc-rdm-xtrm": {
+        "name": "yes-basic-uninc-rdm-xtrm",
+        "link": "https://evo.com/snowboards/yes-basic-uninc-rdm-xtrm-snowboard",
+        "sizes": [
+          "149",
+          "152",
+          "156W",
+          "158",
+          "159W",
+          "161"
+        ],
+        "price": "$579.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-eiki": {
+        "name": "yes-eiki",
+        "link": "https://evo.com/snowboards/yes-eiki-snowboard",
+        "sizes": [
+          "148",
+          "151"
+        ],
+        "price": "$469.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Soft",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-fridge-master-xtrm": {
+        "name": "yes-fridge-master-xtrm",
+        "link": "https://evo.com/snowboards/yes-fridge-master-xtrm-snowboard",
+        "sizes": [
+          "154",
+          "158",
+          "162",
+          "166"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-greats-uninc": {
+        "name": "yes-greats-uninc",
+        "link": "https://evo.com/snowboards/yes-greats-uninc-snowboard",
+        "sizes": [
+          "149",
+          "151",
+          "154",
+          "156",
+          "159"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-halldor": {
+        "name": "yes-halldor",
+        "link": "https://evo.com/snowboards/yes-halldor-snowboard",
+        "sizes": [
+          "147",
+          "151",
+          "155",
+          "159"
+        ],
+        "price": "$499.95",
+        "Terrain:": "Freestyle, All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-jackpot": {
+        "name": "yes-jackpot",
+        "link": "https://evo.com/snowboards/yes-jackpot-snowboard",
+        "sizes": [
+          "152",
+          "154",
+          "156",
+          "158"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-pyl": {
+        "name": "yes-pyl",
+        "link": "https://evo.com/snowboards/yes-pyl-snowboard",
+        "sizes": [
+          "156",
+          "159",
+          "160W",
+          "162",
+          "164W",
+          "165"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-pyl-uninc-dcp-xtrm": {
+        "name": "yes-pyl-uninc-dcp-xtrm",
+        "link": "https://evo.com/snowboards/yes-pyl-uninc-dcp-xtrm-snowboard",
+        "sizes": [
+          "155",
+          "157",
+          "159"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-pyzel-sbbs": {
+        "name": "yes-pyzel-sbbs",
+        "link": "https://evo.com/snowboards/yes-pyzel-sbbs-snowboard",
+        "sizes": [
+          "150",
+          "155W",
+          "158"
+        ],
+        "price": "$359.99 Sale",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-shifter-xtrm-bonus": {
+        "name": "yes-shifter-xtrm-bonus",
+        "link": "https://evo.com/snowboards/yes-shifter-xtrm-bonus-snowboard",
+        "sizes": [
+          "158"
+        ],
+        "price": "$549.95",
+        "Terrain:": "Freestyle",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "True Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-standard-2024": {
+        "name": "yes-standard-2024",
+        "link": "https://evo.com/snowboards/yes-standard-snowboard-2024",
+        "sizes": [
+          "151"
+        ],
+        "price": "$467.46 Sale",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-standard": {
+        "name": "yes-standard",
+        "link": "https://evo.com/snowboards/yes-standard-snowboard",
+        "sizes": [
+          "149",
+          "151",
+          "153",
+          "156",
+          "159",
+          "167"
+        ],
+        "price": "$549.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-standard-uninc-dc-xtrm": {
+        "name": "yes-standard-uninc-dc-xtrm",
+        "link": "https://evo.com/snowboards/yes-standard-uninc-dc-xtrm-snowboard",
+        "sizes": [
+          "153",
+          "156",
+          "159"
+        ],
+        "price": "$599.95",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-typo": {
+        "name": "yes-typo",
+        "link": "https://evo.com/snowboards/yes-typo-snowboard",
+        "sizes": [
+          "152",
+          "155",
+          "156W",
+          "158",
+          "159W",
+          "161"
+        ],
+        "price": "$499.95",
+        "Terrain:": "All-Mountain",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Rocker/Camber/Rocker",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Medium",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-warca-uninc-jps-2024": {
+        "name": "yes-warca-uninc-jps-2024",
+        "link": "https://evo.com/snowboards/yes-warca-uninc-jps-snowboard-2024",
+        "sizes": [
+          "148",
+          "150",
+          "153",
+          "155"
+        ],
+        "price": "$399.99 Sale",
+        "Terrain:": "Freeride, Powder",
+        "Ability Level:": "Advanced-Expert",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    },
+    {
+      "yes-warca-uninc-jps": {
+        "name": "yes-warca-uninc-jps",
+        "link": "https://evo.com/snowboards/yes-warca-uninc-jps-snowboard",
+        "sizes": [
+          "150",
+          "153"
+        ],
+        "price": "$599.95",
+        "Terrain:": "All-Mountain, Freeride",
+        "Ability Level:": "Intermediate-Advanced",
+        "Rocker Type:": "Camber",
+        "Shape:": "Directional Twin",
+        "Flex Rating:": "Stiff",
+        "Binding Mount Pattern:": "2x4"
+      }
+    }
+  ]
+}

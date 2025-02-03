@@ -1,171 +1,193 @@
 import React, { useState, useEffect } from 'react';
 import axios, { AxiosError } from 'axios';
-import { Button, Drawer } from 'antd';
+import { Button, Drawer, Modal } from 'antd';
 import { DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons';
-
-import { ImageDisplay } from './ImageDisplay';
 import { ModelRender } from './ModelRender';
 import '../styles/BoardSelection.css';
 
+interface BoardModel {
+  name: string;
+  link: string;
+  sizes: string[];
+  price: string;
+  [key: string]: string | string[];
+}
 
+interface BrandBoards {
+  [modelName: string]: BoardModel;
+}
 
-
-interface BoardsJSON {
-    [key: string]: string[]
-};
+interface BoardsData {
+  [brand: string]: BrandBoards[];
+}
 
 export default function BoardSelection() {
-    const [boards, setBoards] = useState<BoardsJSON>({});
-    const [errorThrown, setErrorThrown] = useState<boolean>(false);
+  const [boards, setBoards] = useState<BoardsData>({});
+  const [errorThrown, setErrorThrown] = useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
+  const [confirmedBrand, setConfirmedBrand] = useState<string | null>(null);
+  const [confirmedBoard, setConfirmedBoard] = useState<string | null>(null);
+  const [draftBrand, setDraftBrand] = useState<string | null>(null);
+  const [draftBoard, setDraftBoard] = useState<string | null>(null);
+  const [brandDrawerOpen, setBrandDrawerOpen] = useState<boolean>(false);
+  const [boardDrawerOpen, setBoardDrawerOpen] = useState<boolean>(false);
 
-    useEffect(() => {
-        const getBoards = async() => {
-            try {
-                const response = await axios.get('http://127.0.0.1:8000/boards-json')
-                const boards: BoardsJSON = response.data.boards;
-                setBoards(boards)
-            }
-            catch (error: unknown) {
-                if (axios.isAxiosError(error)) {
-                    const requestError = error as AxiosError;
-                    if (requestError.response?.status !== 200) {
-                        console.warn = () => {};
-                        setErrorThrown(true);
-                    }
-                }
-            }
+
+  useEffect(() => {
+    const getBoards = async () => {
+      try {
+        const response = await axios.get('/board-info.json');
+        setBoards(response.data);
+      } catch (error: unknown) {
+        if (axios.isAxiosError(error)) {
+          const requestError = error as AxiosError;
+          if (requestError.response?.status !== 200) {
+            console.warn = () => {};
+            setErrorThrown(true);
+          }
         }
-        getBoards();
-        setTimeout(() => {
-        }, 1000);
-    }, []);
-
-    const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
-    const [selectedBoard, setSelectedBoard] = useState<string | null>(null);
-    const [brandDrawerOpen, setBrandDrawerOpen] = useState<boolean>(false);
-    const [boardDrawerOpen, setBoardDrawerOpen] = useState<boolean>(false);
-
-    const openBrandDrawer = () => {
-        setBrandDrawerOpen(!brandDrawerOpen)
+      }
     };
+    getBoards();
+  }, []);
 
-    const handleBrandSelect = (brand: string) => {
-        setSelectedBrand(brand);
-        setBrandDrawerOpen(!brandDrawerOpen);
-        openBoardDrawer();
-    };
-
-    const openBoardDrawer = () => {
-        setBoardDrawerOpen(!boardDrawerOpen);
-        // setBrandDrawerOpen(!brandDrawerOpen);
-    };
-
-    const handleBoardSelect = (board: string) => {
-        setSelectedBoard(board);
-        setBoardDrawerOpen(!boardDrawerOpen);
-    };
-
-    const handleCloseBrandDrawer = () => {
-        setBrandDrawerOpen(false);
-    };
-
-    const handleCloseBoardDrawer = () => {
-        setBoardDrawerOpen(false);
-    };
-
-
+  useEffect(() => {
     if (errorThrown) {
-        return (
-            <div>
-                <span>Error Thrown</span>
-            </div>
-        )
+      setModalOpen(true);
     }
+  }, [errorThrown])
 
+  const openBrandDrawer = () => {
+    setBrandDrawerOpen(true);
+  };
+
+  const handleBrandSelect = (brand: string) => {
+    setDraftBrand(brand);
+    setBoardDrawerOpen(true);
+  };
+
+  const handleBoardSelect = (board: string) => {
+    setDraftBoard(board);
+
+    setConfirmedBrand(draftBrand);
+    setConfirmedBoard(board);
+
+    setBrandDrawerOpen(false);
+    setBoardDrawerOpen(false);
+  };
+
+  const handleCloseBoardDrawer = () => {
+    setBoardDrawerOpen(false);
+    setDraftBrand(null);
+    setDraftBoard(null);
+  };
+
+  const handleCloseBrandDrawer = () => {
+    setBrandDrawerOpen(false);
+    setBoardDrawerOpen(false);
+    setDraftBrand(null);
+    setDraftBoard(null);
+  };
+
+  if (errorThrown) {
     return (
-        <>
-            <Button 
-                className = {`closedBrandDrawerButton ${brandDrawerOpen ? 'openedBrandDrawerButton' : ''} ${boardDrawerOpen ? 'hidden' : ''}`}
-                type = 'text'
-                onClick = {openBrandDrawer}
-            >
-                {
-                    !boardDrawerOpen
-                    ?
-                    (!brandDrawerOpen ? <DoubleLeftOutlined /> : <DoubleRightOutlined />)
-                    :
-                    null
-                }
-            </Button>
-            <Drawer
-                placement = 'right'
-                onClose = {handleCloseBrandDrawer}
-                open = {brandDrawerOpen}
-                closable = {false}
-                className = 'brandDrawer'
-                width = {348}
-            >
-                {Object.keys(boards).map((brand: string, index: number) => (
-                    <Button
-                        className = 'brandDrawerButton'
-                        key = {index}
-                        type = 'link'
-                        onClick = {() => handleBrandSelect(brand)}
-                    >
-                        <img className = 'logoButton' src = {`/images/logos/${brand}.jpg`} alt = {brand} />
-                    </Button>
-                ))}
-            </Drawer>
-            <Button
-                className = {`boardButtonTest ${boardDrawerOpen ? 'boardButtonFinal' : ''}`}
-                type = 'text'
-                onClick = {openBoardDrawer}
-            >
-                {!boardDrawerOpen ? <DoubleLeftOutlined /> : <DoubleRightOutlined />}
-            </Button>
-            <Drawer
-                title = {<img className = 'selectedBrandLogo' src = {`/images/logos/${selectedBrand}.jpg`} />}
-                placement = 'right'
-                onClose = {handleCloseBoardDrawer}
-                open = {boardDrawerOpen}
-                className = 'boardDrawer'
-                closeIcon = {false}
-                width = {348}
-            >
-                {
-                    selectedBrand
-                    ?
-                    boards[selectedBrand].map((board: string) => (
-                        <div className = 'boardImageContainer' key = {board}>
-                            <Button
-                                className = 'boardDrawerButton'
-                                type = 'link'
-                                onClick = {() => handleBoardSelect(board)}
-                            >
-                                <img
-                                    className = 'boardButton'
-                                    src = {
-                                        selectedBrand === 'Yes'
-                                        ?
-                                        `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}.-${board.replace(/ /g, '-')}.jpg`
-                                        :
-                                        `/images/mens/${selectedBrand}/${selectedBrand.replace(/ /g, '-')}-${board.replace(/ /g, '-')}.jpg`
-                                    }
-                                    alt = {selectedBrand + " " + board} />
-                                    <span className = 'boardButtonName'>{board}</span>
-                            </Button>
-                        </div>
-                    ))
-                    :
-                    null
-                }
-            </Drawer>
+      <Modal
+        title = "Problem"
+        centered
+        open = {modalOpen}
+        onOk = {() => setModalOpen(false)}
+        onCancel = {() => setModalOpen(false)}
+        footer = {null}
+      >
+        <p>
+          There was an issue, please try again later.
+        </p>
 
-            <div className = 'imageContainer'>
-                {/* <ImageDisplay brand = {selectedBrand} board = {selectedBoard} /> */}
-                <ModelRender brand = {selectedBrand} board = {selectedBoard}/>
-            </div>
+      </Modal>
+    );
+  }
 
-        </>
-    )
-};
+  return (
+    <>
+      <Button
+        className={`closedBrandDrawerButton ${
+          brandDrawerOpen ? 'openedBrandDrawerButton' : ''
+        } ${boardDrawerOpen ? 'hidden' : ''}`}
+        type="text"
+        onClick={openBrandDrawer}
+      >
+        {!boardDrawerOpen ? (!brandDrawerOpen ? <DoubleLeftOutlined /> : <DoubleRightOutlined />) : null}
+      </Button>
+
+      <Drawer
+        placement="right"
+        onClose={handleCloseBrandDrawer}
+        open={brandDrawerOpen}
+        closable={false}
+      >
+        {Object.keys(boards).map((brand: string, index: number) => (
+          <Button
+            className="brandDrawerButton"
+            key={index}
+            type="link"
+            onClick={() => handleBrandSelect(brand)}
+          >
+            <img className="logoButton" src={`/images/logos/${brand}.jpg`} alt={brand} />
+          </Button>
+        ))}
+
+        <Drawer
+          title={
+            draftBrand ? (
+              <img className="selectedBrandLogo" src={`/images/logos/${draftBrand}.jpg`} alt={draftBrand} />
+            ) : (
+              ''
+            )
+          }
+          placement="right"
+          onClose={handleCloseBoardDrawer}
+          open={boardDrawerOpen}
+          closable={false}
+        >
+          {draftBrand &&
+            boards[draftBrand].map((modelObject: BrandBoards) => {
+              const modelName = Object.keys(modelObject)[0];
+              const boardData = modelObject[modelName];
+
+              return (
+                <div className="boardImageContainer" key={boardData.name}>
+                  <Button
+                    className="boardDrawerButton"
+                    type="link"
+                    onClick={() => handleBoardSelect(boardData.name)}
+                  >
+                    <img
+                      className="boardButton"
+                      src={
+                        draftBrand === 'Yes'
+                          ? `/images/mens/${draftBrand}/${draftBrand.replace(/ /g, '-')}.--${boardData.name.replace(/ /g, '-')}.png`
+                          : `/images/mens/${draftBrand}/${boardData.name}.png`
+                      }
+                      alt={`${draftBrand} ${boardData.name}`}
+                    />
+                    <span className="boardButtonName">
+                      {boardData.name
+                        .replace(`${draftBrand}`, '')
+                        .replace(/-/g, ' ')
+                        .replace(/\b[a-z]/g, (match) => match.toUpperCase())}
+                    </span>
+                  </Button>
+                </div>
+              );
+            })}
+        </Drawer>
+      </Drawer>
+
+      {confirmedBrand && confirmedBoard && (
+        <div className="imageContainer">
+          <ModelRender brand={confirmedBrand} board={confirmedBoard} boardData={boards} />
+        </div>
+      )}
+    </>
+  );
+}
