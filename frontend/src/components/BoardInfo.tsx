@@ -56,7 +56,7 @@ export const BoardInfo: React.FC<ModelRenderProps> = ({ brand, board, boardData 
           <Card 
             title = {`${matchedBoard.name.replace(/-/g, " ").replace(/\b[a-z]/g, match => match.toUpperCase())} - ${matchedBoard.price}`}
             style = {{ 
-              width: '30vw',
+              width: '450px',
             }}
           >
           
@@ -126,7 +126,7 @@ export const BoardInfo: React.FC<ModelRenderProps> = ({ brand, board, boardData 
             <Row gutter = {[24, 8]}>
               <Col span = {4} />
               <Col span = {16}>
-                <a href = {matchedBoard.link}>
+                <a href = {matchedBoard.link} target = "_blank">
                   <Button block>
                     Check This Board Out On Evo
                   </Button>

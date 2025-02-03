@@ -147,8 +147,7 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
         <LoadingOutlined
           style={{
             display: 'flex',
-            fontSize: '500px',
-            color: 'yellow'
+            fontSize: '5vw',
           }}
         />
       </div>
