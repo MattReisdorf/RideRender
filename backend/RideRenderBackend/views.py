@@ -16,12 +16,12 @@ from firebase_admin import storage
 
 load_dotenv()
 
-base_path = os.path.join(os.path.dirname(os.path.realpath(__file__)))
-
-cred = credentials.Certificate(os.getenv('FIREBASE_SA_PATH'))
-firebase_admin.initialize_app(cred, {
-  'storageBucket': os.getenv('FIREBASE_BUCKET_NAME')
-})
+# base_path = os.path.join(os.path.dirname(os.path.realpath(__file__)))
+if not firebase_admin._apps:
+  cred = credentials.Certificate(os.getenv('FIREBASE_SA_PATH'))
+  firebase_admin.initialize_app(cred, {
+    'storageBucket': os.getenv('FIREBASE_BUCKET_NAME')
+  })
 
 bucket = storage.bucket()
 
