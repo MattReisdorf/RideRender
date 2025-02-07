@@ -9,13 +9,18 @@
 /* START BRAND DRAWER SPECIFIC STYLES */
 .closedBrandDrawerButton {
     position: fixed;
-    right: 0;
-    top: 5%;
+    right: 9px;
+    top: 70px;
     /* transform: translateY(-5%);
     z-index: 1001;
     visibility: visible;
     transition: right 0.3s ease, visibility 0s 0.29s; */
-    
+}
+
+.openInfoButton {
+  position: fixed;
+  right: 9px;
+  top: 20px;
 }
 
 .hidden {

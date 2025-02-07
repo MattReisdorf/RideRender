@@ -8,7 +8,7 @@ Site has been fully updated, should work end to end now.
 * Get the site live
 
 *Things to be added eventually*
-* Popup on first load to explain controls
+* ~~Popup on first load to explain controls~~
 * User controls for lighting and background
 * UI improvements
 

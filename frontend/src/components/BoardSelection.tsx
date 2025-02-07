@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import axios, { AxiosError } from 'axios';
-import { Button, Drawer, Modal } from 'antd';
-import { DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons';
+import { Button, Drawer, Modal, Tour, TourProps } from 'antd';
+import { DoubleLeftOutlined, DoubleRightOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import { ModelRender } from './ModelRender';
 import '../styles/BoardSelection.css';
+
 
 interface BoardModel {
   name: string;
@@ -31,6 +32,106 @@ export default function BoardSelection() {
   const [draftBoard, setDraftBoard] = useState<string | null>(null);
   const [brandDrawerOpen, setBrandDrawerOpen] = useState<boolean>(false);
   const [boardDrawerOpen, setBoardDrawerOpen] = useState<boolean>(false);
+
+  const [infoModalOpen, setInfoModalOpen] = useState<boolean>(true);
+
+  const [tourOpen, setTourOpen] = useState<boolean>(false);
+
+  const buttonRef = useRef(null);
+  const brandRef = useRef(null);
+  const boardRef = useRef(null);
+  const infoRef = useRef(null);
+
+  const steps: TourProps['steps'] = [
+    {
+      title: 'Open Button',
+      description: 'Click Here to Start Board Selection',
+      target: () => buttonRef.current,
+      nextButtonProps: {
+        onClick: () => {
+          setBrandDrawerOpen(true);
+          setDraftBrand('yes')
+        }
+      },
+      prevButtonProps: {
+        onClick: () => {
+          setBrandDrawerOpen(false);
+        }
+      },
+      placement: 'left',
+      onClose: () => {
+        setTourOpen(false);
+        setBrandDrawerOpen(false);
+        setBoardDrawerOpen(false);
+        setDraftBrand(null);
+      }
+    },
+    {
+      title: 'Brand Selection',
+      description: 'Click to Select Any of the Brands in the List',
+      target: () => brandRef.current,
+      nextButtonProps: {
+        onClick: () => {
+          setBoardDrawerOpen(true)
+        }
+      },
+      placement: 'left',
+      onClose: () => {
+        setTourOpen(false);
+        setBrandDrawerOpen(false);
+        setBoardDrawerOpen(false);
+        setDraftBrand(null);
+      }
+    },
+    {
+      title: 'Board Selection',
+      description: 'Click to select a board model. \nThe selected model will be loaded and displayed. \nClick and drag to rotate the rendered model.',
+      target: () => boardRef.current,
+      nextButtonProps: {
+        onClick: () => {
+          setBoardDrawerOpen(false);
+          setBrandDrawerOpen(false);
+          setDraftBrand(null)
+        }
+      },
+      prevButtonProps: {
+        onClick: () => {
+          setBoardDrawerOpen(false);
+        }
+      },
+      placement: 'left',
+      onClose: () => {
+        setTourOpen(false);
+        setBrandDrawerOpen(false);
+        setBoardDrawerOpen(false);
+        setDraftBrand(null);
+      }
+    },
+    {
+      title: 'Open Info',
+      description: 'Click to reopen the welcome dialog if you want to take the tour again.',
+      target: () => infoRef.current,
+      nextButtonProps: {
+        onClick: () => {
+          setBoardDrawerOpen(false);
+          setBrandDrawerOpen(false);
+          setDraftBrand(null)
+        }
+      },
+      prevButtonProps: {
+        onClick: () => {
+          setBoardDrawerOpen(false);
+        }
+      },
+      placement: 'left',
+      onClose: () => {
+        setTourOpen(false);
+        setBrandDrawerOpen(false);
+        setBoardDrawerOpen(false);
+        setDraftBrand(null);
+      }
+    }
+  ]
 
 
   useEffect(() => {
@@ -109,12 +210,50 @@ export default function BoardSelection() {
 
   return (
     <>
+      <Modal
+        title = "Welcome"
+        centered
+        open = {infoModalOpen}
+        onOk = {() => setInfoModalOpen(false)}
+        onCancel={() => setInfoModalOpen(false)}
+        footer = {[
+          <Button 
+            type = "primary" 
+            onClick = {
+              () => {
+                setTourOpen(true); 
+                setInfoModalOpen(false)
+              }
+            }
+          >
+            Begin Tour
+          </Button>
+        ]}
+      >
+        <p>
+          Thanks for checking out this site. It's still a work in progress and I'm aware of some of the issues with the board models.
+        </p>
+        <p>
+          If you come across any bugs - or just have feedback or suggestions - please open an issue in the <a target = "_blank" href = "https://github.com/MattReisdorf/RideRender/issues">GitHub</a> repo. I'll take a look and try to get it fixed.
+        </p>
+        
+      </Modal>
+      <Button 
+        type = 'text'
+        className = 'openInfoButton'
+        onClick = {() => setInfoModalOpen(true)}
+        ref = {infoRef}
+      >
+        <InfoCircleOutlined />
+        
+      </Button>
       <Button
         className={`closedBrandDrawerButton ${
           brandDrawerOpen ? 'openedBrandDrawerButton' : ''
         } ${boardDrawerOpen ? 'hidden' : ''}`}
         type="text"
         onClick={openBrandDrawer}
+        ref = {buttonRef}
       >
         {!boardDrawerOpen ? (!brandDrawerOpen ? <DoubleLeftOutlined /> : <DoubleRightOutlined />) : null}
       </Button>
@@ -131,8 +270,9 @@ export default function BoardSelection() {
             key={index}
             type="link"
             onClick={() => handleBrandSelect(brand)}
+            
           >
-            <img className="logoButton" src={`/images/logos/${brand}.jpg`} alt={brand} />
+            <img className="logoButton" src={`/images/logos/${brand}.jpg`} alt={brand} ref = {brandRef}/>
           </Button>
         ))}
 
@@ -169,6 +309,7 @@ export default function BoardSelection() {
                           : `/images/mens/${draftBrand}/${boardData.name}.png`
                       }
                       alt={`${draftBrand} ${boardData.name}`}
+                      ref = {boardRef}
                     />
                     <span className="boardButtonName">
                       {boardData.name
@@ -182,6 +323,8 @@ export default function BoardSelection() {
             })}
         </Drawer>
       </Drawer>
+
+      <Tour open = {tourOpen} onClose = {() => setTourOpen(false)} steps = {steps} zIndex={2000}/>
 
       {confirmedBrand && confirmedBoard && (
         <div className="imageContainer">
