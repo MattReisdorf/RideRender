@@ -21,4 +21,4 @@ COPY . /app/
 ENV PORT=8000
 
 # Use gunicorn to server the Django app
-CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi:application" ]
+CMD sh -c "gunicorn --bind 0.0.0.0:$PORT backend.wsgi:application"

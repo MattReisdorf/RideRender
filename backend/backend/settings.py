@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-g%xed0^x+(*q$#4&08mnq2)42-=hkr=1axq2#wx#pydezg7v%1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  'ride-render-backend-1d4398481464.herokuapp.com'
+]
 
 
 # Application definition
@@ -125,5 +127,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
+    "https://ride-render-frontend-83f29e5f5b12.herokuapp.com/"
     "http://localhost:3000"
 ]

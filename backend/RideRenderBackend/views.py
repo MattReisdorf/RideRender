@@ -14,11 +14,18 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import storage
 
+import json
+
 load_dotenv()
 
-# base_path = os.path.join(os.path.dirname(os.path.realpath(__file__)))
+firebase_credentials = os.getenv('FIREBASE_CREDENTIALS')
+if not firebase_credentials:
+  raise ValueError("FIREBASE_CREDENTIALS environment variable not set")
+
+cred_data = json.loads(firebase_credentials)
+
 if not firebase_admin._apps:
-  cred = credentials.Certificate(os.getenv('FIREBASE_SA_PATH'))
+  cred = credentials.Certificate(cred_data)
   firebase_admin.initialize_app(cred, {
     'storageBucket': os.getenv('FIREBASE_BUCKET_NAME')
   })
@@ -28,7 +35,6 @@ bucket = storage.bucket()
 @csrf_exempt
 @require_http_methods(["GET"])
 def get_glb_model(request, model_name):
-
   try:
     glb = bucket.blob(f"{model_name}.glb").download_as_bytes()
 
@@ -42,8 +48,6 @@ def get_glb_model(request, model_name):
 @csrf_exempt
 @require_http_methods(["POST"])
 def model_existence(request, model_name):
-  print(model_name)
-
   try:
     blobs = bucket.list_blobs()
     for blob in blobs:
