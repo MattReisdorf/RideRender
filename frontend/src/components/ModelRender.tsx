@@ -46,7 +46,7 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
     const checkModelExists = async () => {
       setErrorThrown(false);
       try {
-        const response = await axios.post(`https://ride-render-backend-1d4398481464.herokuapp.com/model-existence/${board}/`);
+        const response = await axios.post(`http://127.0.0.1:8000/model-existence/${board}/`);
         if (response.data.modelExists) {
           setModelExists(true);
         }
@@ -62,7 +62,7 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
       setLoading(true)
       try {
         await delay(1500);
-        const response = await axios.get<Blob>(`https://ride-render-backend-1d4398481464.herokuapp.com/get-glb-model/${board}/`, {
+        const response = await axios.get<Blob>(`http://127.0.0.1:8000/get-glb-model/${board}/`, {
           responseType: 'blob'
         })
         const objectURL = URL.createObjectURL(response.data);
