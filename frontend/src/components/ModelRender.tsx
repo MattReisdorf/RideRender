@@ -6,9 +6,9 @@ import { OrbitControls } from '@react-three/drei';
 import { Mesh } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { BoardInfo } from './BoardInfo';
-import { Modal } from 'antd';
+import { Button, Col, Drawer, Modal, Row } from 'antd';
 
-import { LoadingOutlined } from '@ant-design/icons';
+import { LoadingOutlined, DoubleRightOutlined } from '@ant-design/icons';
 
 
 interface ModelRenderProps {
@@ -33,7 +33,7 @@ interface BoardsData {
   [brand: string]: BrandBoards[]
 }
 
-export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardData }) => {
+export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardData}) => {
   const [modelExists, setModelExists] = useState<boolean>(false);
   const [errorThrown, setErrorThrown] = useState<boolean>(false);
   const [modelURL, setModelURL] = useState<string | null>(null);
@@ -159,10 +159,19 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
     return (
       <>
         <BoardInfo board={board} brand={brand} boardData={boardData} />
+        {/* <div 
+          style = {{
+            height: '250px',
+            width: 'auto'
+          }}
+        /> */}
         <div
+          className = 'model'
           style={{
+            marginTop: '100px',
             height: 'auto',
-            width: '30vw',
+            // height: '500px',
+            // width: '30vw',
             marginLeft: 'auto',
             marginRight: 'auto',
             cursor: 'grab'

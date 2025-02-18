@@ -4,6 +4,7 @@ import { Button, Drawer, Modal, Tour, TourProps } from 'antd';
 import { DoubleLeftOutlined, DoubleRightOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import { ModelRender } from './ModelRender';
 import '../styles/BoardSelection.css';
+import '../styles/antdOverrides.css';
 
 
 interface BoardModel {
@@ -32,10 +33,9 @@ export default function BoardSelection() {
   const [draftBoard, setDraftBoard] = useState<string | null>(null);
   const [brandDrawerOpen, setBrandDrawerOpen] = useState<boolean>(false);
   const [boardDrawerOpen, setBoardDrawerOpen] = useState<boolean>(false);
-
   const [infoModalOpen, setInfoModalOpen] = useState<boolean>(true);
-
   const [tourOpen, setTourOpen] = useState<boolean>(false);
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
   const buttonRef = useRef(null);
   const brandRef = useRef(null);
@@ -133,6 +133,11 @@ export default function BoardSelection() {
     }
   ]
 
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   useEffect(() => {
     const getBoards = async () => {
@@ -143,7 +148,7 @@ export default function BoardSelection() {
         if (axios.isAxiosError(error)) {
           const requestError = error as AxiosError;
           if (requestError.response?.status !== 200) {
-            console.warn = () => {};
+            console.warn = () => { };
             setErrorThrown(true);
           }
         }
@@ -193,12 +198,12 @@ export default function BoardSelection() {
   if (errorThrown) {
     return (
       <Modal
-        title = "Problem"
+        title="Problem"
         centered
-        open = {modalOpen}
-        onOk = {() => setModalOpen(false)}
-        onCancel = {() => setModalOpen(false)}
-        footer = {null}
+        open={modalOpen}
+        onOk={() => setModalOpen(false)}
+        onCancel={() => setModalOpen(false)}
+        footer={null}
       >
         <p>
           There was an issue, please try again later.
@@ -211,17 +216,18 @@ export default function BoardSelection() {
   return (
     <>
       <Modal
-        title = "Welcome"
+        title="Welcome"
         centered
-        open = {infoModalOpen}
-        onOk = {() => setInfoModalOpen(false)}
+        open={infoModalOpen}
+        onOk={() => setInfoModalOpen(false)}
         onCancel={() => setInfoModalOpen(false)}
-        footer = {[
-          <Button 
-            type = "primary" 
-            onClick = {
+        footer={[
+          <Button
+            key = 'tour-button'
+            type="primary"
+            onClick={
               () => {
-                setTourOpen(true); 
+                setTourOpen(true);
                 setInfoModalOpen(false)
               }
             }
@@ -234,35 +240,46 @@ export default function BoardSelection() {
           Thanks for checking out this site. It's still a work in progress and I'm aware of some of the issues with the board models.
         </p>
         <p>
-          If you come across any bugs - or just have feedback or suggestions - please open an issue in the <a target = "_blank" href = "https://github.com/MattReisdorf/RideRender/issues">GitHub</a> repo. I'll take a look and try to get it fixed.
+          If you come across any bugs - or just have feedback or suggestions - please open an issue in the <a target="_blank" href="https://github.com/MattReisdorf/RideRender/issues">GitHub</a> repo. I'll take a look and try to get it fixed.
         </p>
-        
+
       </Modal>
-      <Button 
-        type = 'text'
-        className = 'openInfoButton'
-        onClick = {() => setInfoModalOpen(true)}
-        ref = {infoRef}
+      <Button
+        type='text'
+        className='openInfoButton'
+        onClick={() => setInfoModalOpen(true)}
+        ref={infoRef}
       >
         <InfoCircleOutlined />
-        
+
       </Button>
       <Button
-        className={`closedBrandDrawerButton ${
-          brandDrawerOpen ? 'openedBrandDrawerButton' : ''
-        } ${boardDrawerOpen ? 'hidden' : ''}`}
+        className={`closedBrandDrawerButton ${brandDrawerOpen ? 'openedBrandDrawerButton' : ''
+          } ${boardDrawerOpen ? 'hidden' : ''}`}
         type="text"
         onClick={openBrandDrawer}
-        ref = {buttonRef}
+        ref={buttonRef}
       >
         {!boardDrawerOpen ? (!brandDrawerOpen ? <DoubleLeftOutlined /> : <DoubleRightOutlined />) : null}
       </Button>
 
       <Drawer
+        title={
+          <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '65px' }}>
+            Select A Board
+          </div>
+        }
         placement="right"
         onClose={handleCloseBrandDrawer}
         open={brandDrawerOpen}
-        closable={false}
+        closable={
+          // false
+          windowWidth <= 440 ? true : false
+        }
+        width={
+          windowWidth <= 440 ? windowWidth : 378
+        }
+        className="brandDrawer"
       >
         {Object.keys(boards).map((brand: string, index: number) => (
           <Button
@@ -270,9 +287,9 @@ export default function BoardSelection() {
             key={index}
             type="link"
             onClick={() => handleBrandSelect(brand)}
-            
+
           >
-            <img className="logoButton" src={`/images/logos/${brand}.jpg`} alt={brand} ref = {brandRef}/>
+            <img className="logoButton" src={`/images/logos/${brand}.jpg`} alt={brand} ref={brandRef} />
           </Button>
         ))}
 
@@ -287,7 +304,12 @@ export default function BoardSelection() {
           placement="right"
           onClose={handleCloseBoardDrawer}
           open={boardDrawerOpen}
-          closable={false}
+          closable={
+            windowWidth <= 440 ? true : false
+          }
+          width={
+            windowWidth <= 440 ? windowWidth : 378
+          }
         >
           {draftBrand &&
             boards[draftBrand].map((modelObject: BrandBoards) => {
@@ -309,7 +331,7 @@ export default function BoardSelection() {
                           : `/images/mens/${draftBrand}/${boardData.name}.png`
                       }
                       alt={`${draftBrand} ${boardData.name}`}
-                      ref = {boardRef}
+                      ref={boardRef}
                     />
                     <span className="boardButtonName">
                       {boardData.name
@@ -324,7 +346,7 @@ export default function BoardSelection() {
         </Drawer>
       </Drawer>
 
-      <Tour open = {tourOpen} onClose = {() => setTourOpen(false)} steps = {steps} zIndex={2000}/>
+      <Tour open={tourOpen} onClose={() => setTourOpen(false)} steps={steps} zIndex={2000} />
 
       {confirmedBrand && confirmedBoard && (
         <div className="imageContainer">
