@@ -1,0 +1,18 @@
+.ant-drawer-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: none !important;
+}
+
+.ant-drawer-footer {
+  border-top: none !important;
+}
+.ant-drawer-close {
+  position: absolute;
+}
+
+.ant-drawer-body {
+  display: grid;
+}
