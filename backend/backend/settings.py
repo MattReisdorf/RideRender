@@ -128,6 +128,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    # "https://ride-render-frontend-83f29e5f5b12.herokuapp.com",
+    "https://ride-render-frontend-83f29e5f5b12.herokuapp.com",
     "http://localhost:3000"
 ]
