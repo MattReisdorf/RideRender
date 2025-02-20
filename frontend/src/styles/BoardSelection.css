@@ -1,13 +1,22 @@
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
 .closedBrandDrawerButton {
   position: fixed;
   right: 9px;
   top: 70px;
+  z-index: 1000;
 }
 
 .openInfoButton {
   position: fixed;
   right: 9px;
   top: 20px;
+  z-index: 1000;
 }
 
 .hidden {

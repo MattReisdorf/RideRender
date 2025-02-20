@@ -16,3 +16,8 @@
 .ant-drawer-body {
   display: grid;
 }
+
+.ant-tour {
+  width: fit-content;
+  max-width: 90%;
+}
