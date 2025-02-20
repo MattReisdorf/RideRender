@@ -5,6 +5,7 @@
 .fade-out {
   opacity: 0;
 }
+
 .closedBrandDrawerButton {
   position: fixed;
   right: 9px;
@@ -21,11 +22,6 @@
 
 .hidden {
   visibility: hidden;
-}
-
-
-.brandDrawer .ant-drawer-body {
-  margin-top: -50px;
 }
 
 

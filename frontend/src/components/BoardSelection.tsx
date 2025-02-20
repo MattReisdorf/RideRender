@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios, { AxiosError } from 'axios';
-import { Button, ConfigProvider, Drawer, Modal, theme, Tour, TourProps } from 'antd';
+import { Button, ConfigProvider, Divider, Drawer, Modal, theme, Tour, TourProps } from 'antd';
 import { DoubleLeftOutlined, InfoCircleFilled, MoonFilled, SunFilled } from '@ant-design/icons';
 import { ModelRender } from './ModelRender';
 import '../styles/BoardSelection.css';
@@ -255,7 +255,8 @@ export default function BoardSelection() {
       colorPrimary: "#F7996E",
       colorBgLayout: "#FFFFFF",
       colorLink: "#F7996E",
-      colorLinkHover: "#F7996E"
+      colorLinkHover: "#F7996E",
+      colorSplit: "#F7996E",
     }
   }
 
@@ -266,7 +267,8 @@ export default function BoardSelection() {
       colorBgLayout: "#141414",
       colorLink: "#4A7C59",
       colorLinkHover: "#4A7C59",
-      colorLinkActive: "#4A7C59"
+      colorLinkActive: "#4A7C59",
+      colorSplit: "#4A7C59",
     }
   }
 
@@ -308,6 +310,16 @@ export default function BoardSelection() {
           </p>
           <p>
             If you come across any bugs - or just have feedback or suggestions - please open an issue in the <a target="_blank" rel='noreferrer' href="https://github.com/MattReisdorf/RideRender/issues">GitHub</a> repo. I'll take a look and try to get it fixed.
+          </p>
+
+          <p>
+            The plan is to have all of the boards available from Evo on here, but I'm currently only through GNU. New boards will be added periodically as I get them finished.
+          </p>
+
+          <Divider />
+
+          <p>
+            - Matt
           </p>
 
         </Modal>
