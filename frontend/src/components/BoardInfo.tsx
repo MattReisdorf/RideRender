@@ -1,5 +1,5 @@
-import { DoubleRightOutlined } from '@ant-design/icons';
-import { Button, Card, Col, Descriptions, DescriptionsProps, Drawer, Row, Space } from 'antd';
+import { PlusSquareFilled } from '@ant-design/icons';
+import { Button, Descriptions, DescriptionsProps, Drawer } from 'antd';
 import React, { useState, useEffect } from 'react';
 
 import '../styles/antdOverrides.css'
@@ -8,7 +8,8 @@ import '../styles/antdOverrides.css'
 interface ModelRenderProps {
   brand: string | null,
   board: string | null,
-  boardData: BoardsData
+  boardData: BoardsData,
+  isDarkTheme: boolean
 }
 
 interface BoardModel {
@@ -27,7 +28,7 @@ interface BoardsData {
   [brand: string]: BrandBoards[]
 }
 
-export const BoardInfo: React.FC<ModelRenderProps> = ({ brand, board, boardData}) => {
+export const BoardInfo: React.FC<ModelRenderProps> = ({ brand, board, boardData, isDarkTheme }) => {
 
   const [infoDrawerOpen, setInfoDrawerOpen] = useState<boolean>(false);
   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
@@ -103,26 +104,43 @@ export const BoardInfo: React.FC<ModelRenderProps> = ({ brand, board, boardData}
       },
     ]
 
-
     return (
       <>
         <Button
           className='boardInfoButton'
           type='text'
           onClick={handleInfoDrawer}
-          // icon={<DoubleRightOutlined />}
           iconPosition='end'
           style={{
             position: 'fixed',
-            top: '20px',
-            left: '9px'
+            top: '70px',
+            left: '9px',
+            zIndex: '1000',
           }}
         >
-          More Info
+          {
+            isDarkTheme
+              ?
+              <PlusSquareFilled
+                style = {{
+                  color: '#4A7C59',
+                  fontSize: '20px',
+                  transition: 'color 0.3s'
+                }}
+              />
+              :
+              <PlusSquareFilled
+                style = {{
+                  color: '#F7996E',
+                  fontSize: '20px',
+                  transition: 'color 0.3s'
+                }}
+              />
+          }
         </Button>
         <Drawer
-          title = {
-            <div style = {{width: '100%', textAlign: 'center',}}>
+          title={
+            <div style={{ width: '100%', textAlign: 'center', }}>
               {matchedBoard.name.replace(/-/g, " ").replace(/\b[a-z]/g, match => match.toUpperCase())} - {matchedBoard.price}
             </div>
           }
@@ -135,28 +153,16 @@ export const BoardInfo: React.FC<ModelRenderProps> = ({ brand, board, boardData}
           width={
             windowWidth <= 440 ? windowWidth : 378
           }
-          footer= {[
-            <a href = {matchedBoard.link} target = "_blank">
-              <Button block>
+          footer={[
+            <a key = "check-board" href={matchedBoard.link} target="_blank" rel = "noreferrer">
+              <Button type='primary' block>
                 Check This Board Out On Evo
               </Button>
             </a>
           ]}
         >
 
-          <Descriptions bordered items = {descriptions} />
-
-          {/* <div
-            style = {{
-              marginTop: '-200px'
-            }}
-          >
-            <a href = {matchedBoard.link} target = "_blank">
-              <Button block>
-                Check This Board Out On Evo
-              </Button>
-            </a>
-          </div> */}
+          <Descriptions bordered items={descriptions} column = {3}/>
         </Drawer>
       </>
     )

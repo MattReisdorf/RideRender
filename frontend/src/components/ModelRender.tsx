@@ -5,16 +5,15 @@ import { Canvas, useLoader, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { Mesh } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { BoardInfo } from './BoardInfo';
-import { Button, Col, Drawer, Modal, Row } from 'antd';
+import { Modal } from 'antd';
 
-import { LoadingOutlined, DoubleRightOutlined } from '@ant-design/icons';
-
+import { LoadingOutlined } from '@ant-design/icons';
 
 interface ModelRenderProps {
   brand: string | null,
   board: string | null,
-  boardData: BoardsData
+  boardData: BoardsData,
+  isDarkTheme: boolean
 }
 
 interface BoardModel {
@@ -33,7 +32,7 @@ interface BoardsData {
   [brand: string]: BrandBoards[]
 }
 
-export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardData}) => {
+export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardData, isDarkTheme }) => {
   const [modelExists, setModelExists] = useState<boolean>(false);
   const [errorThrown, setErrorThrown] = useState<boolean>(false);
   const [modelURL, setModelURL] = useState<string | null>(null);
@@ -144,12 +143,25 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
           height: 'auto'
         }}
       >
-        <LoadingOutlined
-          style={{
-            display: 'flex',
-            fontSize: '5vw',
-          }}
-        />
+        {
+            isDarkTheme
+              ?
+              <LoadingOutlined
+                style = {{
+                  color: '#4A7C59',
+                  fontSize: '20px',
+                  transition: 'color 0.3s'
+                }}
+              />
+              :
+              <LoadingOutlined
+                style = {{
+                  color: '#F7996E',
+                  fontSize: '20px',
+                  transition: 'color 0.3s'
+                }}
+              />
+          }
       </div>
       
     )
@@ -157,36 +169,24 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
 
   if (modelURL && <Model modelURL={modelURL} />) {
     return (
-      <>
-        <BoardInfo board={board} brand={brand} boardData={boardData} />
-        {/* <div 
-          style = {{
-            height: '250px',
-            width: 'auto'
-          }}
-        /> */}
-        <div
-          className = 'model'
-          style={{
-            marginTop: '100px',
-            height: 'auto',
-            // height: '500px',
-            // width: '30vw',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            cursor: 'grab'
-          }}
-        >
-          <Canvas>
-            <ambientLight intensity={2} />
-            <directionalLight position={[10, 10, 5]} intensity={1} />
-            <directionalLight position={[-10, -10, -5]} intensity={1} />
-            {modelURL && <Model modelURL={modelURL} />}
-            <OrbitControls />
-          </Canvas>
-        </div>
-      </>
-
+      <div
+        className = 'model'
+        style={{
+          height: 'auto',
+          width: '100vw',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          cursor: 'grab'
+        }}
+      >
+        <Canvas>
+          <ambientLight intensity={2} />
+          <directionalLight position={[10, 10, 5]} intensity={1} />
+          <directionalLight position={[-10, -10, -5]} intensity={1} />
+          {modelURL && <Model modelURL={modelURL} />}
+          <OrbitControls />
+        </Canvas>
+      </div>
     )
   }
 
