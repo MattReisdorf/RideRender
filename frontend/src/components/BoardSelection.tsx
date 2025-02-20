@@ -187,6 +187,16 @@ export default function BoardSelection() {
     isDarkTheme ? setLightOrDark('dark') : setLightOrDark('light');
   }, [isDarkTheme])
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    setIsDarkTheme(true);
+
+    const handleChange = (event: MediaQueryListEvent) => setIsDarkTheme(event.matches);
+    mediaQuery.addEventListener('change', handleChange);
+
+    return () => mediaQuery.removeEventListener('change', handleChange);
+  }, [])
+
   const openBrandDrawer = () => {
     setBrandDrawerOpen(true);
   };
