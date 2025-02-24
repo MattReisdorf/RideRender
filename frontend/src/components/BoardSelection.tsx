@@ -317,6 +317,7 @@ export default function BoardSelection() {
           //       Begin Tour
           //     </Button>
           //     ] : null}
+          footer={null}
         >
           <p>
             Thanks for checking out this site. It's still a work in progress and I'm aware of some of the issues with the board models.
