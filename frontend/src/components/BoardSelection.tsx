@@ -35,6 +35,7 @@ export default function BoardSelection() {
   const [boardDrawerOpen, setBoardDrawerOpen] = useState<boolean>(false);
   const [infoModalOpen, setInfoModalOpen] = useState<boolean>(true);
   const [tourOpen, setTourOpen] = useState<boolean>(false);
+  const [tourKey, setTourKey] = useState<number>(0);
   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
   const [isDarkTheme, setIsDarkTheme] = useState<boolean>(false);
   const [lightOrDark, setLightOrDark] = useState<"light" | "dark">("light");
@@ -46,112 +47,120 @@ export default function BoardSelection() {
   const infoRef = useRef(null);
   const themeRef = useRef(null);
 
-  const steps: TourProps['steps'] = [
-    {
-      title: 'Open Button',
-      description: 'Click or Tap here to start.',
-      target: () => buttonRef.current,
-      nextButtonProps: {
-        onClick: () => {
-          setBrandDrawerOpen(true);
-          setDraftBrand('arbor')
-        }
-      },
-      prevButtonProps: {
-        onClick: () => {
-          setBrandDrawerOpen(false);
-        }
-      },
-      placement: 'left',
-      onClose: () => {
-        setTourOpen(false);
-        setBrandDrawerOpen(false);
-        setBoardDrawerOpen(false);
-        setDraftBrand(null);
-      }
-    },
-    {
-      title: 'Brand Selection',
-      description: 'Click or Tap any brand to select a board.',
-      target: () => document.querySelector('.logoButton.arbor')!,
-      nextButtonProps: {
-        onClick: () => {
-          setBoardDrawerOpen(true)
-          setDraftBoard('arbor-a-frame')
-        }
-      },
-      placement: 'left',
-      onClose: () => {
-        setTourOpen(false);
-        setBrandDrawerOpen(false);
-        setBoardDrawerOpen(false);
-        setDraftBrand(null);
-      }
-    },
-    {
-      title: 'Board Selection',
-      description: 'Click or Tap any board to load a model.',
-      target: () => document.querySelector('.boardButton.arbor-a-frame')!,
-      nextButtonProps: {
-        onClick: () => {
-          setBoardDrawerOpen(false);
-          setBrandDrawerOpen(false);
-          setConfirmedBoard(draftBoard);
-          setConfirmedBrand(draftBrand);
-          setDraftBrand(null);
-          setDraftBoard(null);
-        }
-      },
-      prevButtonProps: {
-        onClick: () => {
-          setBoardDrawerOpen(false);
-        }
-      },
-      placement: 'left',
-      onClose: () => {
-        setTourOpen(false);
-        setBrandDrawerOpen(false);
-        setBoardDrawerOpen(false);
-        setDraftBoard(null);
-        setDraftBrand(null);
-      }
-    },
-    {
-      title: 'Model',
-      description: 'The selected model will render here.\nDesktop: Click and Drag to rotate.\nMobile: Swipe to rotate.',
-      target: null,
-      nextButtonProps: {
-        onClick: () => {
-          setBoardDrawerOpen(false);
-          setBrandDrawerOpen(false);
-          setDraftBrand(null)
-        }
-      },
-      prevButtonProps: {
-        onClick: () => {
-          setBoardDrawerOpen(false);
-        }
-      },
-      onClose: () => {
-        setTourOpen(false);
-        setBrandDrawerOpen(false);
-        setBoardDrawerOpen(false);
-        setDraftBrand(null);
-      }
-    },
-    {
-      title: 'More Info',
-      description: 'Click or Tap here to see more information.',
-      target: () => document.querySelector('.boardInfoButton')!,
-      placement: 'right'
-    },
-    {
-      title: 'Theme',
-      description: 'Switch between dark and light modes.',
-      target: themeRef.current,
-      placement: 'right'
-    }
-  ]
+  // const steps: TourProps['steps'] = [
+  //   {
+  //     title: 'Open Button',
+  //     description: 'Click or Tap here to start.',
+  //     target: () => buttonRef.current,
+  //     nextButtonProps: {
+  //       onClick: () => {
+  //         setBrandDrawerOpen(true);
+  //         setDraftBrand('arbor');
+  //         console.log("Next Clicked");
+  //       }
+  //     },
+  //     prevButtonProps: {
+  //       onClick: () => {
+  //         setBrandDrawerOpen(false);
+  //         console.log("Prev Clicked");
+  //       }
+  //     },
+  //     placement: 'left',
+  //     onClose: () => {
+  //       setTourOpen(false);
+  //       setBrandDrawerOpen(false);
+  //       setBoardDrawerOpen(false);
+  //       setDraftBrand(null);
+  //     }
+  //   },
+  //   {
+  //     title: 'Brand Selection',
+  //     description: 'Click or Tap any brand to select a board.',
+  //     target: () => document.querySelector('.logoButton.arbor')!,
+  //     nextButtonProps: {
+  //       onClick: () => {
+  //         setBoardDrawerOpen(true)
+  //         setDraftBoard('arbor-a-frame')
+  //       }
+  //     },
+  //     prevButtonProps: {
+  //       onClick: () => {
+  //         setBrandDrawerOpen(false);
+  //         console.log("Prev Clicked");
+  //       }
+  //     },
+  //     placement: 'bottom',
+  //     onClose: () => {
+  //       setTourOpen(false);
+  //       setBrandDrawerOpen(false);
+  //       setBoardDrawerOpen(false);
+  //       setDraftBrand(null);
+  //     }
+  //   },
+  //   {
+  //     title: 'Board Selection',
+  //     description: 'Click or Tap any board to load a model.',
+  //     target: () => document.querySelector('.boardButton.arbor-a-frame')!,
+  //     nextButtonProps: {
+  //       onClick: () => {
+  //         setBoardDrawerOpen(false);
+  //         setBrandDrawerOpen(false);
+  //         setConfirmedBoard(draftBoard);
+  //         setConfirmedBrand(draftBrand);
+  //         setDraftBrand(null);
+  //         setDraftBoard(null);
+  //       }
+  //     },
+  //     prevButtonProps: {
+  //       onClick: () => {
+  //         setBoardDrawerOpen(false);
+  //       }
+  //     },
+  //     placement: 'bottom',
+  //     onClose: () => {
+  //       setTourOpen(false);
+  //       setBrandDrawerOpen(false);
+  //       setBoardDrawerOpen(false);
+  //       setDraftBoard(null);
+  //       setDraftBrand(null);
+  //     }
+  //   },
+  //   {
+  //     title: 'Model',
+  //     description: 'The selected model will render here.\nDesktop: Click and Drag to rotate.\nMobile: Swipe to rotate.',
+  //     target: null,
+  //     nextButtonProps: {
+  //       onClick: () => {
+  //         setBoardDrawerOpen(false);
+  //         setBrandDrawerOpen(false);
+  //         setDraftBrand(null)
+  //       }
+  //     },
+  //     prevButtonProps: {
+  //       onClick: () => {
+  //         setBoardDrawerOpen(false);
+  //       }
+  //     },
+  //     onClose: () => {
+  //       setTourOpen(false);
+  //       setBrandDrawerOpen(false);
+  //       setBoardDrawerOpen(false);
+  //       setDraftBrand(null);
+  //     }
+  //   },
+  //   {
+  //     title: 'More Info',
+  //     description: 'Click or Tap here to see more information.',
+  //     target: () => document.querySelector('.boardInfoButton')!,
+  //     placement: 'right'
+  //   },
+  //   {
+  //     title: 'Theme',
+  //     description: 'Switch between dark and light modes.',
+  //     target: themeRef.current,
+  //     placement: 'right'
+  //   }
+  // ]
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
@@ -247,6 +256,13 @@ export default function BoardSelection() {
     );
   }
 
+  const startTour = () => {
+    setTourKey(prevKey => prevKey + 1);
+    setTourOpen(true);
+    setInfoModalOpen(false);
+    console.log(tourKey);
+  }
+
   const { darkAlgorithm, defaultAlgorithm } = theme
 
   const lightTheme = {
@@ -290,20 +306,17 @@ export default function BoardSelection() {
           open={infoModalOpen}
           onOk={() => setInfoModalOpen(false)}
           onCancel={() => setInfoModalOpen(false)}
-          footer={[
-            <Button
-              key='tour-button'
-              type="primary"
-              onClick={
-                () => {
-                  setTourOpen(true);
-                  setInfoModalOpen(false)
-                }
-              }
-            >
-              Begin Tour
-            </Button>
-          ]}
+          // footer={
+          //   tourKey < 1
+          //     ?
+          //     [<Button
+          //       key='tour-button'
+          //       type="primary"
+          //       onClick={startTour}
+          //     >
+          //       Begin Tour
+          //     </Button>
+          //     ] : null}
         >
           <p>
             Thanks for checking out this site. It's still a work in progress and I'm aware of some of the issues with the board models.
@@ -500,13 +513,13 @@ export default function BoardSelection() {
           </Drawer>
         </Drawer>
 
-        <Tour mask={false} type="primary" open={tourOpen} onClose={() => setTourOpen(false)} steps={steps} zIndex={2000} />
+        {/* <Tour key={tourKey} mask={false} type="primary" open={tourOpen} onClose={() => setTourOpen(false)} steps={steps} zIndex={2000} /> */}
 
         {confirmedBrand && confirmedBoard && (
           <>
             <BoardInfo board={confirmedBoard} brand={confirmedBrand} boardData={boards} isDarkTheme={isDarkTheme} />
             <div className="imageContainer" ref={modelRef}>
-              <ModelRender brand={confirmedBrand} board={confirmedBoard} boardData={boards} isDarkTheme={isDarkTheme}/>
+              <ModelRender brand={confirmedBrand} board={confirmedBoard} boardData={boards} isDarkTheme={isDarkTheme} />
             </div>
           </>
         )}
