@@ -157,7 +157,7 @@ export const ModelRender: React.FC<ModelRenderProps> = ({ brand, board, boardDat
               <LoadingOutlined
                 style = {{
                   color: '#F7996E',
-                  fontSize: '20px',
+                  fontSize: 'clamp(40px, 15vw, 100px)',
                   transition: 'color 0.3s'
                 }}
               />
