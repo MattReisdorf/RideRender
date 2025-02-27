@@ -1,16 +1,18 @@
 # RideRender
-![Demo GIF](./demo2.gif)
+![Demo GIF](./demo3.gif)
 
 Site has been fully updated, should work end to end now.
 
 *Still have a couple things that need to be cleaned up*
-* Finish cleaning up models and get them uploaded
-* Get the site live
+* Finish cleaning up models and get them uploaded - Completed through GNU as of 2/27/25
+* ~~Get the site live~~ -> Site is deployed on Heroku, still working on getting a domain name
+
+https://ride-render-frontend-83f29e5f5b12.herokuapp.com/
 
 *Things to be added eventually*
-* ~~Popup on first load to explain controls~~
-* User controls for lighting and background
-* UI improvements
+* ~~Popup on first load to explain controls~~ -> Implemented, but removed for bug fixing within drawers
+* ~~User controls for lighting and background~~
+* ~~UI improvements~~
 
 
 
